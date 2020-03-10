@@ -5,15 +5,32 @@
     min-height: 300px;
 }
 
-.img {
-    border-radius: 50%;
-}
-
-.row {
+.gca_row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    
+    max-width:40%;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+    background-clip: padding-box;
+    border-radius: 5px 5px 5px 5px;
+    
 }
 
-.column {
+.gca_column {
   flex: 1;
+
+  margin: 10px;
+  
+}
+.gca_column:first-child {
+  flex: 1;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+.gca_img {
+    border-radius: 5px;
+    object-fit: cover;
 }

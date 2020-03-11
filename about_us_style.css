@@ -3,26 +3,22 @@
    
     padding: 10px;
     border-radius: 5px;
-    min-height: 300px;
+    min-height: 450px;
 }
 
 .gca_row {
     display: flex;
     flex-direction: row;
     flex-basis: max-content;
-
     max-width:40%;
     box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
     background-clip: padding-box;
     border-radius: 5px 5px 5px 5px;
-    
 }
 
 .gca_column {
   flex: 1;
-
-  margin: 10px;
-  
+  margin: 5px;
 }
 .gca_column:first-child {
   flex: 1;
@@ -33,10 +29,14 @@
 }
 
 .gca_img {
-     background-size:contain;
-     
+    background-size:contain;     
     border-radius: 5px;
     max-width:100%;
     max-height:100%;
     
+}
+
+.gca_photo {
+    max-width:100%;
+    max-height:100%;
 }

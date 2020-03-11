@@ -19,7 +19,9 @@ h1, h2, h3, h4 {
 	text-align:center;
 	transition:all 0.2s ease-in-out;
 	border:1px solid transparent;
-	font-family:Gilroy, Montserrat;;
+	font-family:Gilroy, Montserrat;
+	font-weight:lighter;
+	font-size:15px;
 }
 .button:hover {
 	background-color:transparent;
@@ -30,7 +32,7 @@ h1, h2, h3, h4 {
 /* BANNER SECTION */
 
 .banner-homepage {
-	width:100vw;
+	width:100%;
 	height:500px;
 	background-image:linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
 	background-position:center;
@@ -40,7 +42,7 @@ h1, h2, h3, h4 {
 .homepage-banner-content-container {
 	position:absolute;
 	width:50%;
-	min-width:300px;
+	min-width:275px;
 	max-width:500px;
 	text-align:center;
 	background-color:rgba(255,255,255,0.7);
@@ -56,7 +58,7 @@ h1, h2, h3, h4 {
 
 /* PICK A GAME */
 .pick-game-homepage {
-	width:100vw;
+	width:100%;
 }
 .heading-with-background {
 	width:100%;
@@ -126,7 +128,7 @@ span.release-date {
 }
 .align-right .game-content-container {
 	position:absolute;
-	right:0;
+	right:50px;
 }
 .game-name-picture.street-fighter {
 	background-image:url(images/jeux/Street_Fighter_old_logo.png);
@@ -157,9 +159,219 @@ span.release-date {
 }
 
 /* PLATFORMS */
+.platforms-homepage {
+	margin-top:-20px;
+	padding:50px 0;
+}
 .platforms-homepage h2 {
 	text-align:center;
 }
+.products-container-homepage {
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-wrap:wrap;
+	width:60%;
+	max-width:900px;
+	min-width:300px;
+	margin:0 auto;
+}
+.products-container-homepage a {
+	width:50%;
+}
+.platform-container {
+	width:92%;
+	min-width:290px;
+	height:200px;
+	border-radius:20px;
+	margin:12px auto;
+	position:relative;
+	box-shadow:2px 3px 6px lightgrey;
+	transition:all 0.2s ease-in-out;
+}
+.platform-container:hover {
+	transform:scale(1.03);
+}
+.platform-container h3 {
+	text-align:center;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translateX(-50%) translateY(-50%);
+	margin:0;
+	color:white;
+	font-size:24px;
+}
+.number-of-games {
+	position: absolute;
+    left: 50px;
+    top: 0;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 5px grey;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: Gilroy,Montserrat;
+    font-size: 12px;
+    color:#9D59BA;
+}
+.platform-container.sega-megadrive {
+	background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(images/platforms/mega-drive.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.platform-container.nes-classic {
+	background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(images/platforms/nes-classic.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.platform-container.dreamcast {
+	background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(images/platforms/dreamcast.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.platform-container.nintendo-64 {
+	background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(images/platforms/nintendo-64.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.platform-container.playstation-classic {
+	background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(images/platforms/playstation.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.platform-container.super-nintendo {
+	background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(images/platforms/super-nintendo.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.platforms-homepage .button {
+	margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    transform: translateX(-50%);
+}
 
+/* ABOUT US */
+.about-us-homepage {
+	height:500px;
+	background-image:linear-gradient(to bottom, black, rgba(0,0,0,0)), url(images/autres/about-us-section.jpg);
+	margin-top:100px;
+	display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    color:white;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.about-us-homepage-content-container p {
+	margin:45px 0;
+}
 
+/* CONTACT */
+.contact-homepage {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:#efefef;
+}
+.contact-homepage input, .contact-homepage textarea {
+	width: 60%;
+    border: 1px solid #9D59BA;
+    margin: 10px 0;
+    height: 30px;
+    border-radius:5px;
+    padding-left:8px;
+    background-color:white;
+}
+.contact-homepage input::placeholder, .contact-homepage textarea::placeholder {
+	color:#9D59BA;
+}
+.contact-homepage textarea {
+	height:200px;
+	padding-top:5px;
+}
+button {
+	padding:10px 25px;
+	background-color:#9D59BA;
+	border-radius:20px;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	transition:all 0.2s ease-in-out;
+	border:1px solid transparent;
+	font-family:Gilroy, Montserrat;
+	font-weight:lighter;
+	font-size:15px;
+	margin:25px 0;
+}
 
+/* RESPONSIVE */
+@media all and (max-width:960px) and (orientation:portrait) {
+	.align-left.super-mario-bg {
+		background-image:url(images/jeux/supermariobros.jpg);
+		background-size:cover;
+	}
+	.align-left.sonic-bg {
+		background-image:url(images/jeux/sonic-bg.jpg);
+    	background-size: cover;
+	}
+	.align-right.street-fighter-bg {
+		background-image:url(images/jeux/street-fighter.jpg);
+		background-size:cover;
+	}
+	.align-left .game-content-container {
+		width: 50%;
+    	min-width: 300px;
+    	max-width: 600px;
+    	padding: 15px;
+    	background-color: rgba(0,0,0,0.5);
+    	border-radius: 10px;
+    	margin: 0 auto;
+    	padding-left:15px;
+    	display: flex;
+   	 	justify-content: center;
+    	align-items: center;
+    	flex-direction: column;
+	}
+	.align-right .game-content-container {
+		width: 50%;
+    	min-width: 300px;
+    	max-width: 600px;
+    	padding: 15px;
+    	background-color: rgba(0,0,0,0.5);
+    	border-radius: 10px;
+    	margin: 0 auto;
+    	padding-left:15px;
+    	display: flex;
+   	 	justify-content: center;
+    	align-items: center;
+    	flex-direction: column;
+    	right:15px;
+	}
+	.game-content-container {
+		position:relative;
+	}
+	.game-name-picture.super-mario-bros, .game-name-picture.street-fighter, .game-name-picture.sonic {
+		background-position:center;
+	}
+	.category {
+		font-weight:900;
+	}
+	.products-container-homepage a {
+		width:100%;
+	}
+	.about-us-homepage-content-container p {
+		padding:0 15px;
+	}
+	.contact-homepage input, .contact-homepage textarea {
+		width:calc(100% - 30px);
+	}
+	.contact-homepage input::placeholder, .contact-homepage textarea::placeholder {
+		font-size:12px;
+	}
+}

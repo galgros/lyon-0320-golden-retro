@@ -1,0 +1,165 @@
+/* GENERAL */
+body {
+	margin:0px;
+}
+body p {
+	font-family:Roboto;
+	font-weight:300;
+}
+h1, h2, h3, h4 {
+	font-family:Gilroy, Montserrat;
+	font-weight:700;
+}
+.button {
+	padding:10px 25px;
+	background-color:#9D59BA;
+	border-radius:20px;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	transition:all 0.2s ease-in-out;
+	border:1px solid transparent;
+	font-family:Gilroy, Montserrat;;
+}
+.button:hover {
+	background-color:transparent;
+	border:1px solid #9D59BA;
+	color:#9D59BA;
+}
+
+/* BANNER SECTION */
+
+.banner-homepage {
+	width:100vw;
+	height:500px;
+	background-image:linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.homepage-banner-content-container {
+	position:absolute;
+	width:50%;
+	min-width:300px;
+	max-width:500px;
+	text-align:center;
+	background-color:rgba(255,255,255,0.7);
+	border-radius:10px;
+	top:40%;
+	left:50%;
+	transform:translateX(-50%);
+	padding:30px;
+}
+.homepage-banner-content-container h2 {
+	width:100%;
+}
+
+/* PICK A GAME */
+.pick-game-homepage {
+	width:100vw;
+}
+.heading-with-background {
+	width:100%;
+	height:100px;
+	text-align:center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.align-left, section.align-right {
+	height: 450px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items:center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.align-left .game-content-container {
+	width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+    padding-left:50px;
+}
+.game-name-picture {
+	width:300px;
+	height:200px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.game-name-picture.super-mario-bros {
+	background-image:url(images/jeux/Super_Mario_Bros.png);
+	background-position:left;
+	background-size:contain;
+}
+.game-category span {
+	font-family:Gilroy, Montserrat;
+	font-size:11px;
+	text-transform:uppercase;
+}
+span.tiret {
+	margin:0 10px;
+}
+span.release-date {
+	color:#9D59BA;
+}
+.game-category span.nintendo {
+	color:#E4000F;
+}
+.game-content-container p {
+	margin-bottom:30px;
+}
+.align-left.super-mario-bg {
+	background-image:linear-gradient(to right, black, rgba(0,0,0,0)), url(images/jeux/supermariobros.jpg);
+	background-position:right;
+	background-size:55%;
+}
+.align-right {
+
+}
+.align-right.street-fighter-bg {
+	background-image: linear-gradient(to right, rgba(0,0,0,0), black), url(images/jeux/street-fighter.jpg);
+    background-position: left;
+    background-size: 55%;
+}
+.align-right .game-content-container {
+	position:absolute;
+	right:0;
+}
+.game-name-picture.street-fighter {
+	background-image:url(images/jeux/Street_Fighter_old_logo.png);
+	background-position:left;
+	background-size:80%;
+}
+.align-left.sonic-bg {
+	background-image:linear-gradient(to right, black, rgba(0,0,0,0)), url(images/jeux/sonic-bg.jpg);
+	background-position:right;
+	background-size:55%;
+}
+.game-name-picture.sonic {
+	background-image:url(images/jeux/sonic-logo.png);
+	background-position:left;
+	background-size:contain;
+}
+.see-all-games-container {
+	height:100px;
+	width:100%;
+	background-color:black;
+	position:relative;
+}
+.see-all-games-container .button {
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translateX(-50%) translateY(-50%);
+}
+
+/* PLATFORMS */
+.platforms-homepage h2 {
+	text-align:center;
+}
+
+
+

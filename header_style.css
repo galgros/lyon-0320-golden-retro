@@ -26,12 +26,14 @@ header {
 }
 
 .menu_burger {
-    width: 200px;
-    height: 125px;
+    width: 100px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 32px;
+    cursor: pointer;
 }
 
 .bar {
@@ -39,4 +41,12 @@ header {
     height: 8px;
     background-color: #15062f;
     margin-top: 12px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
 }

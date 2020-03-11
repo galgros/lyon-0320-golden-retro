@@ -64,7 +64,24 @@ nav h2
     background-position:center;
     background-size:cover;
 }
+.bloc.sonic-the-hedgehog-2-container {
+    background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/sonic.jpg);
+    background-position:center;
+    background-size:cover;
 
+}
+.bloc.pac-man-container {
+    background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/pacman-149704_1280.png);
+    background-position:center;
+    background-size:cover;
+
+}
+.bloc.street-fighter-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/Street_Fighter_old_logo.png);
+    background-position:center;
+    background-size:cover;
+
+}
 .bloc h3{
     font-size: 24px;
 }

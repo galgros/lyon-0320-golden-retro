@@ -43,10 +43,21 @@ header {
     margin-top: 12px;
 }
 
+.menu {
+    display: none;
+}
+
 ul {
     list-style: none;
 }
 
 a {
     font-family: 'Montserrat', sans-serif;
+}
+
+.menu_sidebar {
+    width: 33%;
+    height: 600px;
+    background-color: #15062f;
+    display: none;
 }

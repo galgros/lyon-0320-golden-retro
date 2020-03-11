@@ -3,7 +3,8 @@
 
     padding: 10px;
     border-radius: 5px;
-    min-height: 450px;
+    min-height: 300px;
+    min-width: 300px;
 }
 
 .gca_row {
@@ -28,24 +29,21 @@
 
 }
 
-.gca_img {
-    background-size:contain;     
+.gca_img_ {
+       
     border-radius: 5px;
     max-width:100%;
     max-height:100%;
 
 }
 
-.gca_photo {
-    max-width:100%;
-    max-height:100%;
-}
-.gca_box{ 
+.gca_img_box{ 
     width: 30%; 
-    height: 200px; 
+    background-size:contain;  
     border: 5px dashed #f7a239;
 } 
-.gca_box img{ 
+
+.gca_img{ 
     width: 100%; 
     height: 100%; 
 }

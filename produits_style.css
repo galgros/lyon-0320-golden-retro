@@ -4,6 +4,7 @@ hr {
 main {
     background-color: #f7f7f7;
     box-shadow: 3px 6px 4px lightgrey;
+    padding: 20px 10px;
 }
 p,
 a,
@@ -115,6 +116,9 @@ label {
         border-radius: 10px;
         box-shadow: 0px 0px 10px lightgrey;
     }
+    .product-game-description:hover {
+        zoom: 1.1;
+    }
     .product-video-and-links {
         width: 100%;
     }
@@ -142,8 +146,8 @@ label {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0px auto 30px auto;
-        width: 50%;
+        margin: -10px auto 30px auto;
+        width: 80%;
         padding: 20px;
         background-color: #f7f7f7;
         box-shadow: 0px 5px 10px lightgrey;
@@ -154,7 +158,8 @@ label {
         color: black;
     }
     .product-link-container a:hover {
-        color: #ffcc00;
+        font-size: larger;
+        color: #9D59BA;
     }
 
 }
@@ -204,6 +209,10 @@ label {
         border-radius: 0 0 10px 10px;
         box-shadow: 3px 6px 4px lightgrey;
     }
+    .product-platform-years:hover,
+    .product-cotation-price:hover {
+        zoom: 1.03;
+    }
     .product-platform-years {
         padding: 10px;
         box-shadow: 2px 1px 4px lightgrey;
@@ -213,7 +222,7 @@ label {
         padding: 10px;
     }
     .product-platform-price-container {
-        margin: -19px 20px 20px auto;
+        margin: -19px 20px 20px 1px;
         padding-top: 50px;
         display: flex;
         box-shadow: 3px 6px 4px lightgrey;
@@ -227,6 +236,7 @@ label {
         flex-direction: column;
         width: 100%;
         padding: 20px;
+        border-radius: 0 0 0 10px;
         background: linear-gradient(to right,#15062F, #15062F, black);
     }
     .product-video-container h3 {
@@ -241,17 +251,20 @@ label {
     .product-link-container {
         display: flex;
         flex-direction: column;
-        width: 475px;
-        padding: 20px;
+        margin-right: 20px;
+        width: 450px;
+        padding: 45px 25px;
         background-color: #f7f7f7;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 0px 0px 10px lightgrey;
     }
     .product-link-container a {
         text-decoration: none;
         color: black;
     }
     .product-link-container a:hover {
-        color: #ffcc00;
+        font-size: larger;
+        color: #9D59BA;
     }
 
 }

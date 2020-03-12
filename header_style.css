@@ -6,7 +6,7 @@ body {
 
 header {
     height: 150px;
-    background-color: #f7f7f7;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
 }
@@ -43,7 +43,7 @@ header {
 .bar {
     width: 80px;
     height: 8px;
-    background-color: #15062f;
+    background-color: #9D59BA;
     margin-top: 12px;
 }
 
@@ -101,7 +101,6 @@ nav {
 
     header {
         height: 350px;
-        background-color: transparent;
     }
 
     .logo_smartphone {

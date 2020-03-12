@@ -2,14 +2,36 @@
 h1, h2, h3, h4, h5, h6 {
     font-family:Gilroy,Montserrat;
 }
-nav
+p {
+    font-family:Roboto;
+}
+.banner-platforms {
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-image:linear-gradient(to bottom, black, rgba(0,0,0,0)), url(images/platforms/platforms-banner.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:white;
+    margin-bottom:50px;
+}
+.nav-platforms 
 {
     display: flex;
-    background-color: #15062F;
-    box-shadow: 0px 2px 5px #1c1a19;
+    background-color: white;
+    box-shadow: 2px 3px 6px lightgrey;
     border-radius: 5px;
     padding: 10px;
     font-size: 0.9em;
+}
+.nav-platforms h2 a {
+    color:#9D59BA;
+    text-decoration:none;
+    font-family:Gilroy,Montserrat;
 }
 
 nav h2
@@ -74,14 +96,53 @@ nav h2
     background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/pacman-149704_1280.png);
     background-position:center;
     background-size:cover;
-
 }
 .bloc.street-fighter-container {
-    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/Street_Fighter_old_logo.png);
+    background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/Street_Fighter_old_logo.png);
     background-position:center;
     background-size:cover;
-
 }
+.bloc.tloz-alttp-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/zelda-link-to-the-past.png);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.tloz-mm-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/majora-mask.png);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.tloz-oot-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/ocarina-of-time.png);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.aladdin-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/aladdin.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.altered-beast-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/altered-beast.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.kirby-dreamland-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/kirby-dream-land.png);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.link-king-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/lion-king.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.metal-slug-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/metal-slug.jpg);
+    background-position:center;
+    background-size:cover;
+}
+
 .bloc h3{
     font-size: 24px;
 }
@@ -94,18 +155,21 @@ nav h2
 /*Version Desktop*/
 @media screen and (min-width: 961px)
 {
+    .banner-platforms {
+    width:100%;
+    height:500px;
+}
 
-nav
+.nav-platforms
 {
     position: absolute;
     display: flex;
     flex-direction: column;
     width: 200px;
-    height: 700px;
     float: left;
-    background-color:#15062F;
+    background-color:white;
 	padding: 20px;
-    box-shadow: 0px 2px 5px #1c1a19;
+    box-shadow: 2px 3px 6px lightgrey;
     border-radius: 5px;
     z-index: 9999;
 }

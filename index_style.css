@@ -28,6 +28,24 @@ h1, h2, h3, h4 {
 	border:1px solid #9D59BA;
 	color:#9D59BA;
 }
+.button-white {
+	padding:10px 25px;
+	background-color:white;
+	border-radius:20px;
+	color:#9D59BA;
+	text-decoration:none;
+	text-align:center;
+	transition:all 0.2s ease-in-out;
+	border:1px solid transparent;
+	font-family:Gilroy, Montserrat;
+	font-weight:lighter;
+	font-size:15px;
+}
+.button-white:hover {
+	background-color:transparent;
+	border:1px solid white;
+	color:white;
+}
 
 /* BANNER SECTION */
 
@@ -148,10 +166,10 @@ span.release-date {
 .see-all-games-container {
 	height:100px;
 	width:100%;
-	background-color:black;
+	background-color:#9D59BA;
 	position:relative;
 }
-.see-all-games-container .button {
+.see-all-games-container .button-white {
 	position:absolute;
 	left:50%;
 	top:50%;
@@ -235,10 +253,11 @@ span.release-date {
 	background-size:cover;
 	background-repeat:no-repeat;
 }
-.platform-container.playstation-classic {
-	background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(images/platforms/playstation.jpg);
-	background-size:cover;
+.platform-container.arcade {
+	background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(images/platforms/arcade.jpg);
+	background-size:contain;
 	background-repeat:no-repeat;
+	background-position:center;
 }
 .platform-container.super-nintendo {
 	background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(images/platforms/super-nintendo.png);

@@ -1,0 +1,145 @@
+body {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 150px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_desktop {
+    display: none;
+}
+
+.menu_burger_container {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu_burger {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.bar {
+    width: 80px;
+    height: 8px;
+    background-color: #15062f;
+    margin-top: 12px;
+}
+
+.menu_sidebar {
+    width: 33%;
+    height: 600px;
+    background-color: #15062f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: transform .2s ease-out;
+    display: none;
+}
+
+#menu_smartphone {
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+#menu_smartphone nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu_smartphone ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu_smartphone ul li {
+    margin-bottom: 64px;
+}
+
+#menu_smartphone ul a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+nav {
+    display: none;
+}
+
+@media screen and (min-width: 961px) {
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        height: 350px;
+        background-color: transparent;
+    }
+
+    .logo_smartphone {
+        display: none;
+    }
+
+    .logo_desktop {
+        display: block;
+        margin-left: 96px;
+    }
+
+    .menu_burger_container {
+        display: none;
+    }
+
+    .menu_sidebar {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    ul a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+        color: #9D59BA;
+        margin-right: 32px;
+        cursor: pointer;
+    }
+}

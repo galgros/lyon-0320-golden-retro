@@ -26,7 +26,7 @@ label {
 }
 .product-game-title a:hover {
     font-size: 25px;
-    color: #ffcc00;
+    color: #9D59BA;
 }
 .cotation-negativ {
     width: 70px;
@@ -116,9 +116,6 @@ label {
         border-radius: 10px;
         box-shadow: 0px 0px 10px lightgrey;
     }
-    .product-game-description:hover {
-        zoom: 1.1;
-    }
     .product-video-and-links {
         width: 100%;
     }
@@ -158,16 +155,12 @@ label {
         color: black;
     }
     .product-link-container a:hover {
-        font-size: larger;
         color: #9D59BA;
     }
 
 }
 
 @media screen and (min-width: 961px) {
-    main {
-        
-    }
     h1, h2, h3 {
         margin: 5px;
         font-family: 'Montserrat', sans-serif;
@@ -178,55 +171,89 @@ label {
         margin: 10px;
         text-align: left;
     }
-    .product-img-and-description {
-        position: relativ;
+    .product-image-cotation-bloc {
+        position:relative;
+        height:240px;
+        width:165px;
+    }
+    .product-image-cotation-bloc img {
+        position:absolute;
+        top:0;
+        left:50%;
+        transform:translateX(-50%);
+    }
+    .product-image-cotation-bloc span {
+        position:absolute;
+        text-align: center;
+        top:115px;
+        width:70px;
+        left:-20px;
+        background-color:green;
+        color:white;
+        padding:10px;
+        border-top-right-radius:15px;
+        border-bottom-right-radius:15px;
+        font-weight:bold;
+        font-family:Gilroy,Montserrat;
+        font-size:20px;
     }
     .product-img-container {
         position: absolute;
         z-index: 9;
         width: 165px;
+        height: 240px;
         padding: 20px;
         background-color: #15062F;
         border-radius: 10px 10px 0 0;
     }
     .game-image {
+        max-width: 165px;
         border-radius: 10px;
         box-shadow: 0px 0px 30px #9D59BA;
     }
     .product-description-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
+        justify-content:space-around;
         height: 275px;
-        padding-left: 180px;
+        padding-left: 220px;
         background-color: #f7f7f7;
         border-radius: 10px;
     }
     .product-game-description {
         max-width: 300px;
-        height: 253px;
-        margin: -20px 0 0 0;
-        padding: 20px 10px 0 40px;
+        width:33%;
+        padding: 0px 20px;
         border-radius: 0 0 10px 10px;
-        box-shadow: 3px 6px 4px lightgrey;
-    }
-    .product-platform-years:hover,
-    .product-cotation-price:hover {
-        zoom: 1.03;
+        justify-content:center;
+        display:flex;
+        align-items:center;
     }
     .product-platform-years {
         padding: 10px;
-        box-shadow: 2px 1px 4px lightgrey;
-        border-radius: 0 0 20px 0;
+        border-right: 2px solid #efefef;
+        width:50%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        height:80%;
+        justify-content:center;
     }
     .product-cotation-price {
         padding: 10px;
+        width:50%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        border-right:2px solid #efefef;
+        height:80%;
+        justify-content:center;
     }
     .product-platform-price-container {
-        margin: -19px 20px 20px 1px;
-        padding-top: 50px;
+        padding-top: 20px;
         display: flex;
-        box-shadow: 3px 6px 4px lightgrey;
         border-radius: 0 0 20px 0;
+        width:66%;
     }
     .product-video-and-links {
         display: flex;
@@ -251,7 +278,6 @@ label {
     .product-link-container {
         display: flex;
         flex-direction: column;
-        margin-right: 20px;
         width: 450px;
         padding: 45px 25px;
         background-color: #f7f7f7;
@@ -263,7 +289,6 @@ label {
         color: black;
     }
     .product-link-container a:hover {
-        font-size: larger;
         color: #9D59BA;
     }
 

@@ -30,10 +30,16 @@ a {
     color: #9D59BA;
 }
 
-.logo {
+.logo-rs-footer-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.logo-rs-footer-container article {
+    display:inline;
+    height:50%;
 }
 
 .logo article {

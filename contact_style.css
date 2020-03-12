@@ -8,10 +8,9 @@ h1,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
+/********HEADER******/
 .header {
-    background-image: url("./IMAGES/imageonline-co-darkenimage.jpg");
+    background-image: url("./images/imageonline-co-darkenimage.jpg");
     background-size: cover;
 }
 .header{
@@ -22,6 +21,9 @@ h1,h3,h4,h5,h6{
     text-align: center;
     background-position: center;
 }
+
+
+/********MIDDLE*******/
 .middle{
     display: flex;
     justify-content: center;
@@ -30,44 +32,18 @@ h1,h3,h4,h5,h6{
     padding-bottom: 20px;
     padding-top: 20px;
 }
-textarea{
-    height: 250px;
+.middle{
+    display: flex;
 }
-input,textarea{
-    width: 75%;
-    padding: 20px 20px 20px 10px;
-    margin-bottom: 10px;
-    border: solid 2px #d4d2d2;
-    border-radius: 8px;
-}
-.form{
-   flex-grow: 0.2
-}
-.form div{
-    padding-bottom: 8px;
-}
+
+
+/****CONTACT*****/
 .contact{
     flex-grow: 0.4;
     background-color:whitesmoke;
     border-radius: 10px;
     box-shadow: #9E9E9E 1px 1px 10px 0px;
 }
-
-.form h3{
-    margin-left: 20px;
-    font-family: sans-serif;
-    color: #b3b3b3;
-}
-button{
-    border: solid 2px #b3abab;
-    border-radius: 5px;
-    padding: 5px 10px 5px 10px;
-    
-}
-.middle{
-    display: flex;
-}
-
 .contact >div{
     margin-left: 20px;
     padding: 20px;
@@ -83,3 +59,79 @@ button{
     margin-left: 85px;
     
 }
+
+/****FORM****/
+
+textarea{
+    height: 250px;
+}
+input,textarea{
+    width: 75%;
+    padding: 20px 20px 20px 10px;
+    margin-bottom: 10px;
+    border: solid 2px #d4d2d2;
+    border-radius: 8px;
+}
+.form{
+    flex-grow: 0.2
+}
+.form div{
+    padding-bottom: 8px;
+}
+.form h3{
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: #b3b3b3;
+}
+button{
+    border: solid 2px #b3abab;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+/****MEDIA QUERIE FOR MOBILE****/
+
+@media screen and (max-width : 480px){
+
+.header h1{
+font-size: large;
+    }
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: #9E9E9E 1px 1px 10px 0px;
+    width: 85%;
+    margin: 10%;
+}
+form{
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    
+}
+.form h3{
+    text-align: center;
+}
+.form div {
+    padding-bottom: 8px;
+    text-align: center;
+}
+button{
+    width: 30%;
+}
+
+
+
+
+
+}
+
+

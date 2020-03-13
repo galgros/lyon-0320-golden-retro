@@ -12,6 +12,9 @@ footer {
     height:40px;
     display:block;
 }
+.logo_instagram {
+    border-radius:30px;
+}
 footer section {
     height: 50%;
 }
@@ -44,7 +47,7 @@ a {
     margin: 0 auto;
 }
 .logo-rs-footer-container article a img {
-    padding:0 10px;
+    margin:0 30px;
 }
 .logo-rs-footer-container article {
     display:inline;

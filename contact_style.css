@@ -7,6 +7,9 @@ h1,h3,h4,h5,h6{
 
     font-family: 'Montserrat', sans-serif;
 }
+body {
+    margin:0px;
+}
 
 /********HEADER******/
 .header {
@@ -57,6 +60,7 @@ h1,h3,h4,h5,h6{
 }
 .middle{
     display: flex;
+    margin:50px 0;
 }
 
 
@@ -68,9 +72,9 @@ h1,h3,h4,h5,h6{
     box-shadow: #9E9E9E 1px 1px 10px 0px;
 }
 .contact >div{
-    margin-left: 20px;
     padding: 20px;
     border-top: solid 1px gray;
+    text-align:center;
 }
 .contact>div>div{
     margin-left: 20px;
@@ -79,7 +83,8 @@ h1,h3,h4,h5,h6{
     border-top: none;
 }
 .contact h5{
-    margin-left: 85px;
+    text-align:center;
+    color:#52ae32;
     
 }
 
@@ -101,16 +106,28 @@ input,textarea{
 .form div{
     padding-bottom: 8px;
 }
-.form h3{
-    margin-left: 20px;
-    font-family: sans-serif;
-    color: #b3b3b3;
+.form h2{
+    font-family: Gilroy, Montserrat;
+    color: #52ae32;
 }
-button{
-    border: solid 2px #b3abab;
-    border-radius: 5px;
-    padding: 5px 10px 5px 10px;
-    
+.button {
+    padding:10px 25px;
+    background-color:#52ae32;
+    border-radius:20px;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    transition:all 0.2s ease-in-out;
+    border:1px solid transparent;
+    font-family:Gilroy, Montserrat;
+    font-weight:lighter;
+    font-size:15px;
+    cursor:pointer;
+}
+.button:hover {
+    background-color:transparent;
+    border:1px solid #52ae32;
+    color:#52ae32;
 }
 
 /****MEDIA QUERIE FOR MOBILE****/
@@ -150,6 +167,13 @@ form{
 button{
     width: 30%;
 }
-
-
+.form h2 {
+    text-align:center;
+}
+button {
+    margin-left:50px;
+}
+.contact-banner-content-container {
+    top:30%;
+}
 }

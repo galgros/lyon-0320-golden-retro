@@ -12,7 +12,7 @@ header {
 .menu_burger.no-content {
     display:none;
 }
-.nav-mobile-full.no-content, .close-menu-mobile.no-content {
+.nav-mobile-full.no-content, .close-menu-mobile.no-content, .no-content {
     display:block!important;
     opacity:0;
     z-index:-99999;
@@ -169,6 +169,16 @@ header {
     text-decoration: none;
     color: #f7f7f7;
 }
+#button-scroll-top {
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    background-color:;
+    color:white;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
 
 nav {
     display: none;
@@ -183,7 +193,7 @@ nav {
         padding-top:0px;
     }
     .logo-header {
-        background-image: url(images/autres/retro-invaders-green.png);
+        background-image: url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Autres/retro-invaders-green.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

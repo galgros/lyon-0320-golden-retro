@@ -7,7 +7,7 @@ h1,h3,h4,h5,h6{
 
     font-family: 'Montserrat', sans-serif;
 }
-<<<<<<< HEAD
+
 body {
     margin:0px;
 }
@@ -15,13 +15,6 @@ body {
 /********HEADER******/
 .header {
     background-image: url("./images/imageonline-co-darkenimage.jpg");
-=======
-
-
-
-.header {
-    background-image: url("./IMAGES/imageonline-co-darkenimage.jpg");
->>>>>>> e5c5cd40f816203ab754b2a301fa7d4ae3080f71
     background-size: cover;
 }
 .header{

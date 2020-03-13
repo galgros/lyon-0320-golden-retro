@@ -5,7 +5,13 @@ footer {
     display: flex;
     flex-direction: column;
 }
-
+.fa-instagram {
+    font:normal normal normal 14px/1 FontAwesome;
+    content:"\f16d";
+    width:40px;
+    height:40px;
+    display:block;
+}
 section {
     height: 50%;
 }

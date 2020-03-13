@@ -9,35 +9,46 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="index_style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/fontawesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Roboto:300,400,700,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="header_style.css" />
 	<link rel="stylesheet" type="text/css" href="footer_style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 
 <body>
 
+	<div id="nav-mobile-container" class="nav-mobile-full no-content">
+            <div class="close-menu-mobile no-content">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav class="mobile-nav">
+                    <ul>
+                        <a href="plateformes.html"><li>Platforms</li></a>
+                        <a href="produits.html"><li>Products</li></a>
+                        <a href="about_us.html"><li>About Us</li></a>
+                        <a href="contact.html"><li>Contact</li></a>
+                    </ul>
+            </nav>
+
+        </div>
+
 	<header>
         <section class="logo">
             <a href="index.html">
-                <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="Images/Autres/retro-invaders-pink-cube.png" height="125" width="auto">
+                <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="Images/Autres/retro-invaders-pink-cube.png" height="110" width="auto">
                 <div class="logo-header"></div>
             </a>
 
         </section>
 
         <section class="menu_burger_container">
-            <article class="menu_burger">
-                <div class="bar">
-
-                </div>
-
-                <div class="bar">
-
-                </div>
-
-                <div class="bar">
-
-                </div>
+            <article id="burger-menu-click" class="menu_burger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
 
             </article>
         </section>
@@ -257,7 +268,7 @@
         <section class="logo-rs-footer-container">
             <article>
                 <a href="https://www.instagram.com/?hl=fr">
-                    <img alt="logo_instagram" src="" height="89" width="auto">
+                   <i class="fab fa-instagram"></i>
                 </a>
             </article>
             
@@ -281,9 +292,23 @@
 
         </section>
     </footer>
-
-
-	</main>
+</main>
+        
+        <script type="text/javascript">
+        jQuery(function(){
+        	var div = jQuery("#burger-menu-click"), div = jQuery("#nav-mobile-container"), div = jQuery(".close-menu-mobile");
+        	jQuery("#burger-menu-click").click(function(){
+        		jQuery("#burger-menu-click").toggleClass ("no-content");
+        		jQuery("#nav-mobile-container").toggleClass ("no-content");
+        		jQuery(".close-menu-mobile").toggleClass ("no-content");
+        	});    	
+        	jQuery(".close-menu-mobile").click(function(){
+        		jQuery("#burger-menu-click").toggleClass ("no-content");
+        		jQuery("#nav-mobile-container").toggleClass ("no-content");
+        		jQuery(".close-menu-mobile").toggleClass ("no-content");
+        	});   
+    	});
+        </script>
 
 </body>
 </html>

@@ -62,7 +62,22 @@ body {
     display: flex;
     margin:50px 0;
 }
-
+.form input, .form textarea {
+    width: 80%;
+    border: 1px solid #52ae32;
+    margin: 10px 0;
+    height: 30px;
+    border-radius:5px;
+    padding-left:8px;
+    background-color:white;
+}
+.form input:placeholder, .form textarea:placeholder {
+    color:#52ae32;
+}
+.form textarea {
+    height:200px;
+    padding-top:5px;
+}
 
 /****CONTACT*****/
 .contact{
@@ -73,7 +88,7 @@ body {
 }
 .contact >div{
     padding: 20px;
-    border-top: solid 1px gray;
+    border-top: solid 1px white;
     text-align:center;
 }
 .contact>div>div{
@@ -85,7 +100,7 @@ body {
 .contact h5{
     text-align:center;
     color:#52ae32;
-    
+    font-size:18px;
 }
 
 /****FORM****/

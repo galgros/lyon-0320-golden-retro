@@ -33,7 +33,7 @@ a {
 
 .items article div {
     font-family: 'Montserrat', sans-serif;
-    color: #9D59BA;
+    color: #52ae32;
 }
 
 .logo-rs-footer-container {
@@ -42,6 +42,9 @@ a {
     justify-content: space-evenly;
     max-width: 500px;
     margin: 0 auto;
+}
+.logo-rs-footer-container article a img {
+    padding:0 10px;
 }
 .logo-rs-footer-container article {
     display:inline;

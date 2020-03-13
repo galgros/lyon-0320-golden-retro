@@ -5,6 +5,7 @@ main {
     background-color: #f7f7f7;
     box-shadow: 3px 6px 4px lightgrey;
     padding: 20px 10px;
+    padding-top:125px;
 }
 p,
 a,
@@ -26,7 +27,7 @@ label {
 }
 .product-game-title a:hover {
     font-size: 25px;
-    color: #9D59BA;
+    color: #52ae32;
 }
 .cotation-negativ {
     width: 70px;
@@ -65,6 +66,7 @@ label {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         text-align: center;
+        color:#52ae32;
     }
     p {
         margin: 10px;
@@ -76,14 +78,14 @@ label {
         justify-content: center;
         width: 80%;
         padding: 20px;
-        background: linear-gradient(360deg, #15062F, #15062F, black );
+        background: #efefef;
         border-radius: 10px 10px 0 0;
         box-shadow: 0px 0px 10px lightgrey;
     }
     .game-image {
         margin: 50px 0;
         border-radius: 10px;
-        box-shadow: 0px 0px 30px #9D59BA;
+        box-shadow: 0px 0px 30px grey;
     }
     .product-video {
         width: 80%;
@@ -136,7 +138,7 @@ label {
         width: 80%;
         height: 400px;
         padding: 20px;
-        background:linear-gradient(180deg, #15062F, #15062F, black ) ;
+        background:#52ae32 ;
         border-radius: 0 0 10px 10px;
         box-shadow: 0px 0px 10px lightgrey;
     }
@@ -169,7 +171,7 @@ label {
         color: black;
     }
     .product-link-container a:hover {
-        color: #9D59BA;
+        color: #52ae32;
     }
 
 }
@@ -177,9 +179,10 @@ label {
 @media screen and (min-width: 961px) {
     h1, h2, h3 {
         margin: 5px;
-        font-family: 'Montserrat', sans-serif;
+        font-family:Gilroy, 'Montserrat', sans-serif;
         font-weight: 700;
         text-align: left;
+        color:#52ae32;
     }
     p {
         margin: 10px;
@@ -203,7 +206,7 @@ label {
         top:115px;
         width:70px;
         left:-20px;
-        background-color:green;
+        background-color:#52ae32;
         color:white;
         padding:10px;
         border-top-right-radius:15px;
@@ -218,13 +221,13 @@ label {
         width: 165px;
         height: 240px;
         padding: 20px;
-        background-color: #15062F;
+        background-color: #efefef;
         border-radius: 10px 10px 0 0;
     }
     .game-image {
         max-width: 165px;
         border-radius: 10px;
-        box-shadow: 0px 0px 30px #9D59BA;
+        box-shadow: 2px 3px 6px grey;
     }
     .product-description-container {
         display: flex;
@@ -282,14 +285,15 @@ label {
         width: 100%;
         padding: 20px;
         border-radius: 0 0 0 10px;
-        background: linear-gradient(to right,#15062F, #15062F, black);
+        /*background: linear-gradient(to right,#15062F, #15062F, black);*/
+        background:#efefef;
     }
     .product-video-container iframe {
         width: 500px;
         height: 18em;
     }
     .product-video-container h3 {
-        color: white;
+        color: #52ae32;
         padding: 15px 0;
     }
     .product-video {
@@ -311,7 +315,7 @@ label {
         color: black;
     }
     .product-link-container a:hover {
-        color: #9D59BA;
+        color: #52ae32;
     }
 
 }

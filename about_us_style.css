@@ -4,9 +4,12 @@ h1, h2, h3, h4, h5, h6  {
 p {
     font-family:Roboto;
 }
+body {
+    margin:0;
+}
 .button {
     padding:10px 25px;
-    background-color:#9D59BA;
+    background-color:#52ae32;
     border-radius:20px;
     color:white;
     text-decoration:none;
@@ -19,13 +22,13 @@ p {
 }
 .button:hover {
     background-color:transparent;
-    border:1px solid #9D59BA;
-    color:#9D59BA;
+    border:1px solid #52ae32;
+    color:#52ae32;
 }
 
 /* BANNER */
 .about-us-banner {
-    height:300px;
+    height:500px;
     width:100vw;
     display:flex;
     justify-content:center;
@@ -50,17 +53,18 @@ p {
     font-size:12px
 }
 .gca_content {
-    margin-top:80px;
+    margin-top:55px;
 }
 .gca_content .category {
     font-family: Gilroy, Montserrat;
-    font-size: 11px;
+    font-size: 14px;
     text-transform: uppercase;
     display:block;
+    line-height:2.2em;
 }
 .category-title {
     font-weight:bold;
-    color:#9D59BA;
+    color:#52ae32;
 }
 .gca_content h3 {
     font-weight:bold;
@@ -68,6 +72,7 @@ p {
 }
 .gca_content p {
     margin-bottom:30px;
+    line-height:1.5em;
 }
 
 .gca_about_us {
@@ -129,25 +134,25 @@ p {
         filter:grayscale(0.2);
     } 
     .gca_img_box.geoffroy {
-        background-image: linear-gradient(rgba(254,254,254,0.1), rgba(254,254,254,0.1)), url("images/about-us/geoffroy.jpg");
+        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/geoffroy.jpg");
     }
     .gca_img_box.gael {
-        background-image: linear-gradient(rgba(254,254,254,0.1), rgba(254,254,254,0.1)), url("images/about-us/oim.jpg");
+        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/oim.jpg");
     }
     .gca_img_box.benjamin {
-        background-image: linear-gradient(rgba(254,254,254,0.1), rgba(254,254,254,0.1)), url("images/about-us/geoffroy.jpg");
+        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/geoffroy.jpg");
     }
     .gca_img_box.stephane {
-        background-image: linear-gradient(rgba(254,254,254,0.1), rgba(254,254,254,0.1)), url("images/about-us/stephan.jpg");
+        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/stephan.jpg");
     }
     .gca_img_box.victor {
-        background-image: linear-gradient(rgba(254,254,254,0.1), rgba(254,254,254,0.1)), url("images/about-us/geoffroy.jpg");
+        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/geoffroy.jpg");
     }
     .gca_img_box.abdel {
-        background-image: linear-gradient(rgba(254,254,254,0.1), rgba(254,254,254,0.1)), url("images/about-us/geoffroy.jpg");
+        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/geoffroy.jpg");
     }
     .gca_img_box.guillaume {
-        background-image: linear-gradient(rgba(254,254,254,0.1), rgba(254,254,254,0.1)), url("images/about-us/GCA.jpg");
+        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/GCA.jpg");
     }
 
     .gca_icon {
@@ -170,9 +175,9 @@ p {
         padding: 8px;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bold;
-        background-color:#9D59BA;
+        background-color:#52ae32;
         color:white;
 
     }
@@ -201,5 +206,10 @@ p {
     }
     .gca_column {
         padding:20px 20px 30px 20px
+    }
+}
+@media all and (max-width:1100px) {
+    .gca_row {
+        width:100%;
     }
 }

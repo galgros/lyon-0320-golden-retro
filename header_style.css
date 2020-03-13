@@ -8,7 +8,6 @@ header {
     width:100%;
     position:absolute;
     z-index:99999;
-    padding-top:50px;
 }
 .menu_burger.no-content {
     display:none;
@@ -26,6 +25,7 @@ header {
     height:100vh;
     position:fixed;
     top:0;
+    left:0;
     transition:all 0.2s ease-in-out;
     background-color:#272727;
 }
@@ -76,14 +76,14 @@ header {
 .menu_burger .bar {
     width: 50px;
     height: 4px;
-    background-color: #9D59BA;
+    background-color: #52ae32;
     margin-top: 10px;
     border-radius:10px;
 }
 .close-menu-mobile .bar {
     width:50px;
     height:4px;
-    background-color:#9D59BA;
+    background-color:#52ae32;
     border-radius:10px;
 }
 .close-menu-mobile span:nth-child(1) {
@@ -133,7 +133,7 @@ header {
     padding:30px;
     opacity:1;
     transition:all 0.3s ease-in-out;
-    color:#9D59BA
+    color:#52ae32
 }
 .mobile-nav ul a {
     color:white;
@@ -226,7 +226,7 @@ nav {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         text-decoration: none;
-        color: #9D59BA;
+        color: #52ae32;
         margin-right: 32px;
         cursor: pointer;
     }

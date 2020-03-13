@@ -2,12 +2,15 @@
 h1, h2, h3, h4, h5, h6 {
     font-family:Gilroy,Montserrat;
 }
+body {
+    margin:0px;
+}
 p {
     font-family:Roboto;
 }
 .button {
     padding:10px 25px;
-    background-color:#9D59BA;
+    background-color:#52ae32;
     border-radius:20px;
     color:white;
     text-decoration:none;
@@ -24,6 +27,9 @@ p {
     position:absolute;
     bottom:10px;
 }
+.bloc-container{
+    width:100%!important;
+}
 .bloc:hover .button-on-hover {
     display:block;
     opacity:1;
@@ -31,8 +37,8 @@ p {
 }
 .button-on-hover:hover {
     background-color:white;
-    border:1px solid #9D59BA;
-    color:#9D59BA;
+    border:1px solid #52ae32;
+    color:#52ae32;
 }
 .banner-platforms {
     width:100%;
@@ -46,7 +52,6 @@ p {
     background-size:cover;
     background-repeat:no-repeat;
     color:white;
-    margin-bottom:50px;
 }
 .nav-platforms 
 {
@@ -56,9 +61,23 @@ p {
     border-radius: 5px;
     padding: 10px;
     font-size: 0.9em;
+    flex-direction: column;
+}
+.nav-platforms h2:nth-child(1) {
+    text-align:center;
+}
+.nav-platforms {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+.nav-platforms-links-container {
+        display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
 }
 .nav-platforms h2 a {
-    color:#9D59BA;
+    color:#52ae32;
     text-decoration:none;
     font-family:Gilroy,Montserrat;
     font-weight:lighter;
@@ -71,7 +90,7 @@ p {
 
 nav h2
 {
-    margin-left: 25px;
+    padding:0 10px;
 }
 
 .nav-and-bloc-container section
@@ -102,8 +121,8 @@ nav h2
     position: absolute;
     top:0;
     left:30px;
-    background-color: white;
-    color: #9D59BA;
+    background-color: #52ae32;
+    color: white;
     padding: 10px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -118,68 +137,68 @@ nav h2
     flex-direction: column;
 }
 .bloc.super-mario-bros-2-container {
-    background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/supermariobros.jpg);
+    background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/supermariobros.jpg);
     background-position:center;
     background-size:cover;
 }
 .bloc.sonic-the-hedgehog-2-container {
-    background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/sonic.jpg);
+    background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/sonic.jpg);
     background-position:center;
     background-size:cover;
 
 }
 .bloc.pac-man-container {
-    background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/pacman-149704_1280.png);
+    background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/pacman-149704_1280.png);
     background-position:center;
     background-size:cover;
 }
 .bloc.street-fighter-container {
-    background-image:linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/Street_Fighter_old_logo.png);
+    background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/Street_Fighter_old_logo.png);
     background-position:center;
     background-size:cover;
 }
 .bloc.tloz-alttp-container {
-    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/zelda-link-to-the-past.png);
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/zelda-link-to-the-past.png);
     background-position:center;
     background-size:cover;
 }
 .bloc.tloz-mm-container {
-    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/majora-mask.png);
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/majora-mask.png);
     background-position:center;
     background-size:cover;
 }
 .bloc.tloz-oot-container {
-    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/ocarina-of-time.png);
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/ocarina-of-time.png);
     background-position:center;
     background-size:cover;
 }
 .bloc.aladdin-container {
-    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/aladdin.jpg);
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/aladdin.jpg);
     background-position:center;
     background-size:cover;
 }
 .bloc.altered-beast-container {
-    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/altered-beast.jpg);
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/altered-beast.jpg);
     background-position:center;
     background-size:cover;
 }
 .bloc.kirby-dreamland-container {
-    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/kirby-dream-land.png);
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/kirby-dream-land.png);
     background-position:center;
     background-size:cover;
 }
 .bloc.lion-king-container {
-    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/lion-king.jpg);
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/lion-king.jpg);
     background-position:center;
     background-size:cover;
 }
 .bloc.metal-slug-container {
-    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/metal-slug.jpg);
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/metal-slug.jpg);
     background-position:center;
     background-size:cover;
 }
 .bloc.super-mario-64-container {
-    background-image: linear-gradient(rgba(107, 107, 107, 0.5), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/mario-64.png);
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/mario-64.png);
     background-position:center;
     background-size:cover;
 }
@@ -203,16 +222,16 @@ nav h2
 
 .nav-platforms
 {
-    position: absolute;
+    position: sticky;
     display: flex;
     flex-direction: column;
     width: 200px;
-    float: left;
     background-color:white;
 	padding: 20px;
     box-shadow: 2px 3px 6px lightgrey;
     border-radius: 5px;
     z-index: 9999;
+    top:0;
 }
 .nav-platforms h2 {
     margin-top:-9px;
@@ -226,6 +245,7 @@ nav h2
 }
 .nav-platforms h2:nth-child(1) {
     border-bottom:none;
+    text-align:center;
 }
 .nav-and-bloc-container {
     width: 100%;
@@ -234,28 +254,48 @@ nav h2
 .nav-and-bloc-container section
 {
     width: 100%;
+    margin-top:-335px;
 }
 
 .bloc-container{
-    position: absolute;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;  
     padding-left:250px;
+    padding-top:50px;
+    box-sizing:border-box;
 }
 
 .bloc
 {
     height: 200px;
-	width: calc(50% - 200px);
+	width: calc(38% - 200px);
     background-color: lightgrey;
     margin: 20px;
     transition: all 0.2s ease-in-out;
+    min-width:280px;
 }
 
 .bloc:hover{
     transform: scale(1.03);
 }
+.banner-platforms {
+    margin-bottom:50px;
+}
+.nav-platforms h2 {
+    margin-left:0px;
+}
+nav h2
+{
+    margin-left: 25px;
+    padding:0;
+}
 
 
+
+}
+@media all and (max-width:760px) {
+    .nav-platforms-links-container h2 a {
+        font-size:15px;
+    }
 }

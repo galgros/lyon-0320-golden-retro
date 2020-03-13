@@ -7,6 +7,7 @@ h1,h3,h4,h5,h6{
 
     font-family: 'Montserrat', sans-serif;
 }
+<<<<<<< HEAD
 body {
     margin:0px;
 }
@@ -14,6 +15,13 @@ body {
 /********HEADER******/
 .header {
     background-image: url("./images/imageonline-co-darkenimage.jpg");
+=======
+
+
+
+.header {
+    background-image: url("./IMAGES/imageonline-co-darkenimage.jpg");
+>>>>>>> e5c5cd40f816203ab754b2a301fa7d4ae3080f71
     background-size: cover;
 }
 .header{
@@ -24,6 +32,7 @@ body {
     text-align: center;
     background-position: center;
 }
+<<<<<<< HEAD
 .banner-contact {
     width:100%;
     height:500px;
@@ -57,10 +66,6 @@ body {
     margin-left: 5%;
     padding-bottom: 20px;
     padding-top: 20px;
-}
-.middle{
-    display: flex;
-    margin:50px 0;
 }
 .form input, .form textarea {
     width: 80%;
@@ -105,6 +110,8 @@ body {
 
 /****FORM****/
 
+=======
+>>>>>>> e5c5cd40f816203ab754b2a301fa7d4ae3080f71
 textarea{
     height: 250px;
 }
@@ -114,9 +121,6 @@ input,textarea{
     margin-bottom: 10px;
     border: solid 2px #d4d2d2;
     border-radius: 8px;
-}
-.form{
-    flex-grow: 0.2
 }
 .form div{
     padding-bottom: 8px;

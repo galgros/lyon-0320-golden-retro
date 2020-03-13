@@ -140,19 +140,20 @@ body {
         background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/oim.jpg");
     }
     .gca_img_box.benjamin {
-        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/geoffroy.jpg");
+        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/benjamin.jpg");
     }
     .gca_img_box.stephane {
         background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/stephan.jpg");
     }
     .gca_img_box.victor {
-        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/geoffroy.jpg");
+        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/benjamin.jpg");
     }
     .gca_img_box.abdel {
-        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/geoffroy.jpg");
+        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/abdel.jpg");
+        background-position:top;
     }
     .gca_img_box.guillaume {
-        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/GCA.jpg");
+        background-image: linear-gradient(rgba(107,107,107,0), rgba(107,107,107,0.5)), url("images/about-us/GCA.png");
     }
 
     .gca_icon {

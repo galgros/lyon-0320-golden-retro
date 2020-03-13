@@ -90,6 +90,9 @@ button {
     justify-content: center;
     align-items: center;
     background-color:#52ae32;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
 }
 .heading-with-background h2 {
 	color:white;

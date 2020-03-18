@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ff94468-0deb-4be7-b9a9-143bbfbece5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-link-to-the-past.html" beforeDir="false" afterPath="$PROJECT_DIR$/a-link-to-the-past.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aladdin.html" beforeDir="false" afterPath="$PROJECT_DIR$/aladdin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/altered-beast.html" beforeDir="false" afterPath="$PROJECT_DIR$/altered-beast.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arcade.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamcast.html" beforeDir="false" afterPath="$PROJECT_DIR$/dreamcast.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genesis.html" beforeDir="false" afterPath="$PROJECT_DIR$/genesis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info-jeux.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby-dreamland.html" beforeDir="false" afterPath="$PROJECT_DIR$/kirby-dreamland.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lion-king.html" beforeDir="false" afterPath="$PROJECT_DIR$/lion-king.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/majora-mask.html" beforeDir="false" afterPath="$PROJECT_DIR$/majora-mask.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metal-slug.html" beforeDir="false" afterPath="$PROJECT_DIR$/metal-slug.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nes-classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/nes-classic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nintendo-64.html" beforeDir="false" afterPath="$PROJECT_DIR$/nintendo-64.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocarina-of-time.html" beforeDir="false" afterPath="$PROJECT_DIR$/ocarina-of-time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plateformes.html" beforeDir="false" afterPath="$PROJECT_DIR$/plateformes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-SG-altered-beast.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-SG-altered-beast.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-SNES-kirby-dl3.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-SNES-kirby-dl3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonic-the-hedgehog-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sonic-the-hedgehog-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/street-fighter-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/street-fighter-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/super-mario-64.html" beforeDir="false" afterPath="$PROJECT_DIR$/super-mario-64.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/super-mario-bros.html" beforeDir="false" afterPath="$PROJECT_DIR$/super-mario-bros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/super-nintendo.html" beforeDir="false" afterPath="$PROJECT_DIR$/super-nintendo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual-tennis.html" beforeDir="false" afterPath="$PROJECT_DIR$/virtual-tennis.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZIzhlwdcjeAyEdBAsPZpWLMW9K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ff94468-0deb-4be7-b9a9-143bbfbece5d" name="Default Changelist" comment="" />
+      <created>1584541517038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584541517038</updated>
+      <workItem from="1584541518689" duration="853000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

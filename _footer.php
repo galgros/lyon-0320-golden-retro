@@ -1,3 +1,6 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="css/footer_style.css" />
+</head>
 <footer>
     <section class="items">
         <article class="hidden">

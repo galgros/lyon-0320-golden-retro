@@ -2,35 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff94468-0deb-4be7-b9a9-143bbfbece5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Gilroy-ExtraBold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/gilroy/Gilroy-ExtraBold.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gilroy-Light.otf" beforeDir="false" afterPath="$PROJECT_DIR$/gilroy/Gilroy-Light.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/_footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a-link-to-the-past.html" beforeDir="false" afterPath="$PROJECT_DIR$/a-link-to-the-past.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/about_us.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aladdin.html" beforeDir="false" afterPath="$PROJECT_DIR$/aladdin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/altered-beast.html" beforeDir="false" afterPath="$PROJECT_DIR$/altered-beast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arcade.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/MyFontsWebfontsKit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/MyFontsWebfontsKit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamcast.html" beforeDir="false" afterPath="$PROJECT_DIR$/dreamcast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genesis.html" beforeDir="false" afterPath="$PROJECT_DIR$/genesis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arcade.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/arcade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamcast.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/dreamcast.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genesis.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/genesis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kirby-dreamland.html" beforeDir="false" afterPath="$PROJECT_DIR$/kirby-dreamland.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lion-king.html" beforeDir="false" afterPath="$PROJECT_DIR$/lion-king.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/majora-mask.html" beforeDir="false" afterPath="$PROJECT_DIR$/majora-mask.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metal-slug.html" beforeDir="false" afterPath="$PROJECT_DIR$/metal-slug.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nes-classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/nes-classic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nintendo-64.html" beforeDir="false" afterPath="$PROJECT_DIR$/nintendo-64.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nes-classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/nes-classic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nintendo-64.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/nintendo-64.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ocarina-of-time.html" beforeDir="false" afterPath="$PROJECT_DIR$/ocarina-of-time.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateformes.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/plateformes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-SG-altered-beast.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-SG-altered-beast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-SNES-kirby-dl3.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-SNES-kirby-dl3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/plateformes.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/plateformes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sonic-the-hedgehog-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sonic-the-hedgehog-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/street-fighter-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/street-fighter-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/super-mario-64.html" beforeDir="false" afterPath="$PROJECT_DIR$/super-mario-64.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/super-mario-bros.html" beforeDir="false" afterPath="$PROJECT_DIR$/super-mario-bros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/super-nintendo.html" beforeDir="false" afterPath="$PROJECT_DIR$/super-nintendo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/super-nintendo.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/super-nintendo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/virtual-tennis.html" beforeDir="false" afterPath="$PROJECT_DIR$/virtual-tennis.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +46,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gilroy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php/platforms" />
       <recent name="$PROJECT_DIR$/gilroy" />
       <recent name="$PROJECT_DIR$/php" />
       <recent name="$PROJECT_DIR$/css" />
@@ -74,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584541517038</updated>
-      <workItem from="1584541518689" duration="4086000" />
+      <workItem from="1584541518689" duration="4647000" />
     </task>
     <servers />
   </component>
@@ -82,9 +74,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="484" y="211" width="424" height="513" key="FileChooserDialogImpl" timestamp="1584548246111">
+    <state x="484" y="211" width="424" height="513" key="FileChooserDialogImpl" timestamp="1584548983653">
       <screen x="0" y="339" width="1920" height="698" />
     </state>
-    <state x="484" y="211" width="424" height="513" key="FileChooserDialogImpl/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584548246111" />
+    <state x="484" y="211" width="424" height="513" key="FileChooserDialogImpl/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584548983653" />
   </component>
 </project>

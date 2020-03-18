@@ -62,7 +62,7 @@
 						<span class="release-date">1993</span>
 					</div>
 					<p>Nintendo created platform games and got it at its best with Super Mario Bros. 2. Experience now one of the best platformers ever created!</p>
-					<a href="../super-mario-bros.html" class="button">MORE INFO</a>
+					<a href="games/super-mario-bros.html" class="button">MORE INFO</a>
 				</div>
 			</section>
 
@@ -75,7 +75,7 @@
 						<span class="release-date">1992</span>
 					</div>
 					<p>Ryu, CHun-Li, M. Bison... choose your favorite street fighter and battleyour friend!</p>
-					<a href="../street-fighter-2.html" class="button">MORE INFO</a>
+					<a href="games/street-fighter-2.html" class="button">MORE INFO</a>
 				</div>
 			</section>
 
@@ -90,7 +90,7 @@
 						<span class="release-date">1992</span>
 					</div>
 					<p>With Sonic the Hedgehog, Sega became a real concurrent to Nintendo’s Mario.</p>
-					<a href="../sonic-the-hedgehog-2.html" class="button">MORE INFO</a>
+					<a href="games/sonic-the-hedgehog-2.html" class="button">MORE INFO</a>
 				</div>
 			</section>
 
@@ -104,42 +104,42 @@
 
 			<div class="products-container-homepage">
 
-				<a href="../genesis.html">
+				<a href="platforms/genesis.html">
 					<div class="platform-container sega-megadrive">
 						<span class="number-of-games">2 JEUX</span>
 						<h3>Sega Genesis</h3>
 					</div>
 				</a>
 
-				<a href="../nes-classic.html">
+				<a href="platforms/nes-classic.html">
 					<div class="platform-container nes-classic">
 						<span class="number-of-games">1 JEUX</span>
 						<h3>NES Classic</h3>
 					</div>
 				</a>
 
-				<a href="../dreamcast.html">
+				<a href="platforms/dreamcast.html">
 					<div class="platform-container dreamcast">
 						<span class="number-of-games">1 JEUX</span>
 						<h3>Dreamcast</h3>
 					</div>
 				</a>
 
-				<a href="../nintendo-64.html">
+				<a href="platforms/nintendo-64.html">
 					<div class="platform-container nintendo-64">
 						<span class="number-of-games">3 JEUX</span>
 						<h3>Nintendo 64</h3>
 					</div>
 				</a>
 
-				<a href="../arcade.html">
+				<a href="platforms/arcade.html">
 					<div class="platform-container arcade">
 						<span class="number-of-games">2 JEUX</span>
 						<h3>Arcade</h3>
 					</div>
 				</a>
 
-				<a href="../super-nintendo.html">
+				<a href="platforms/super-nintendo.html">
 					<div class="platform-container super-nintendo">
 						<span class="number-of-games">4 JEUX</span>
 						<h3>Super Nintendo</h3>

@@ -7,13 +7,13 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Retro Invaders helps you to find your favorite retro games">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="css/index_style.css">
+	<link rel="stylesheet" type="text/css" href="../css/index_style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Roboto:300,400,700,900&display=swap" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
-	<link rel='stylesheet' id='thb-self-hosted-1-css' href="gilroy/gilroy.css">
+	<link rel='stylesheet' id='thb-self-hosted-1-css' href="../gilroy/gilroy.css">
 </head>
 
 <body>
@@ -62,7 +62,7 @@
 						<span class="release-date">1993</span>
 					</div>
 					<p>Nintendo created platform games and got it at its best with Super Mario Bros. 2. Experience now one of the best platformers ever created!</p>
-					<a href="super-mario-bros.html" class="button">MORE INFO</a>
+					<a href="../super-mario-bros.html" class="button">MORE INFO</a>
 				</div>
 			</section>
 
@@ -75,7 +75,7 @@
 						<span class="release-date">1992</span>
 					</div>
 					<p>Ryu, CHun-Li, M. Bison... choose your favorite street fighter and battleyour friend!</p>
-					<a href="street-fighter-2.html" class="button">MORE INFO</a>
+					<a href="../street-fighter-2.html" class="button">MORE INFO</a>
 				</div>
 			</section>
 
@@ -90,7 +90,7 @@
 						<span class="release-date">1992</span>
 					</div>
 					<p>With Sonic the Hedgehog, Sega became a real concurrent to Nintendo’s Mario.</p>
-					<a href="sonic-the-hedgehog-2.html" class="button">MORE INFO</a>
+					<a href="../sonic-the-hedgehog-2.html" class="button">MORE INFO</a>
 				</div>
 			</section>
 
@@ -104,42 +104,42 @@
 
 			<div class="products-container-homepage">
 
-				<a href="genesis.html">
+				<a href="../genesis.html">
 					<div class="platform-container sega-megadrive">
 						<span class="number-of-games">2 JEUX</span>
 						<h3>Sega Genesis</h3>
 					</div>
 				</a>
 
-				<a href="nes-classic.html">	
+				<a href="../nes-classic.html">
 					<div class="platform-container nes-classic">
 						<span class="number-of-games">1 JEUX</span>
 						<h3>NES Classic</h3>
 					</div>
 				</a>
 
-				<a href="dreamcast.html">
+				<a href="../dreamcast.html">
 					<div class="platform-container dreamcast">
 						<span class="number-of-games">1 JEUX</span>
 						<h3>Dreamcast</h3>
 					</div>
 				</a>
 
-				<a href="nintendo-64.html">
+				<a href="../nintendo-64.html">
 					<div class="platform-container nintendo-64">
 						<span class="number-of-games">3 JEUX</span>
 						<h3>Nintendo 64</h3>
 					</div>
 				</a>
 
-				<a href="arcade.html">
+				<a href="../arcade.html">
 					<div class="platform-container arcade">
 						<span class="number-of-games">2 JEUX</span>
 						<h3>Arcade</h3>
 					</div>
 				</a>
 
-				<a href="super-nintendo.html">
+				<a href="../super-nintendo.html">
 					<div class="platform-container super-nintendo">
 						<span class="number-of-games">4 JEUX</span>
 						<h3>Super Nintendo</h3>

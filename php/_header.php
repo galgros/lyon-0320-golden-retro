@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="css/header_style.css" />
+    <link rel="stylesheet" href="../css/header_style.css" />
 </head>
 <header>
     <section class="logo">

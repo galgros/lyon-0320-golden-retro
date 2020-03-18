@@ -7,6 +7,7 @@ h1,h3,h4,h5,h6{
 
     font-family: 'Montserrat', sans-serif;
 }
+
 body {
     margin:0px;
 }
@@ -57,10 +58,6 @@ body {
     margin-left: 5%;
     padding-bottom: 20px;
     padding-top: 20px;
-}
-.middle{
-    display: flex;
-    margin:50px 0;
 }
 .form input, .form textarea {
     width: 80%;
@@ -114,9 +111,6 @@ input,textarea{
     margin-bottom: 10px;
     border: solid 2px #d4d2d2;
     border-radius: 8px;
-}
-.form{
-    flex-grow: 0.2
 }
 .form div{
     padding-bottom: 8px;

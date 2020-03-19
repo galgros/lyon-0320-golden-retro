@@ -1,3 +1,5 @@
+<div class='nav-platforms-links-container'>
+
 <?php
 
 $platforms = [
@@ -9,9 +11,11 @@ $platforms = [
     'super nintendo' => "php/platforms/super-nintendo.html"
 ];
 
-echo "<div class='nav-platforms-links-container'>\n";
 foreach ($platforms as $key => $value) {
     $ucKey = ucwords($key);
     echo "<h2><a href=", $value, ">$ucKey</a></h2>\n";
 }
-echo "</div>\n";
+
+?>
+    
+</div>

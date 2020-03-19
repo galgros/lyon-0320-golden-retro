@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7ff94468-0deb-4be7-b9a9-143bbfbece5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/plateformes.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/plateformes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/platforms/_platform-list-loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/_platform-list-loop.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,8 @@
       <updated>1584541517038</updated>
       <workItem from="1584541518689" duration="4870000" />
       <workItem from="1584603418776" duration="119000" />
-      <workItem from="1584603561553" duration="3766000" />
+      <workItem from="1584603561553" duration="4520000" />
+      <workItem from="1584611985452" duration="591000" />
     </task>
     <servers />
   </component>
@@ -116,9 +117,10 @@
       <screen x="0" y="339" width="1920" height="698" />
     </state>
     <state x="510" y="315" width="1012" height="698" key="SettingsEditor/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584603809817" />
-    <state x="362" y="498" key="com.intellij.ide.util.TipDialog" timestamp="1584603637429">
-      <screen x="0" y="339" width="1920" height="698" />
+    <state x="362" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1584611999213">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="362" y="498" key="com.intellij.ide.util.TipDialog/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584603637429" />
+    <state x="362" y="246" key="com.intellij.ide.util.TipDialog/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584611999213" />
   </component>
 </project>

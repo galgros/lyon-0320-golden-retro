@@ -3,12 +3,12 @@
 <?php
 
 $platforms = [
-    'arcade' => "php/platforms/arcade.php",
-    'dreamcast' => "php/platforms/dreamcast.php",
-    'genesis' => "php/platforms/genesis.php",
-    'nes classic' => "php/platforms/nes-classic.php",
-    'nintendo 64' => "php/platforms/nintendo-64.php",
-    'super nintendo' => "php/platforms/super-nintendo.php"
+    'arcade' => "platforms/arcade.php",
+    'dreamcast' => "platforms/dreamcast.php",
+    'genesis' => "platforms/genesis.php",
+    'nes classic' => "platforms/nes-classic.php",
+    'nintendo 64' => "platforms/nintendo-64.php",
+    'super nintendo' => "platforms/super-nintendo.php"
 ];
 
 foreach ($platforms as $key => $value) {

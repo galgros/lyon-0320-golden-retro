@@ -17,9 +17,9 @@
     </section>
     <nav>
         <ul>
-            <li><a href="plateformes.php">Platforms</a></li>
-            <li><a href="about_us.php">About Us</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="../../php/plateformes.php">Platforms</a></li>
+            <li><a href="../../php/about_us.php">About Us</a></li>
+            <li><a href="../../php/contact.php">Contact</a></li>
         </ul>
     </nav>
 </header>

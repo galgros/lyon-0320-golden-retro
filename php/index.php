@@ -175,10 +175,9 @@
 			<button type="submit">SUBMIT</button>
 
 		</section>
+    </main>
 
-        <?php include "_footer.php"; ?>
-
-</main>
+    <?php include "_footer.php"; ?>
 
     <?php include "burger-script.php"; ?>
 

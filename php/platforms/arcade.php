@@ -31,35 +31,9 @@
                         </ul>
                 </nav>
 
-            </div>
+        </div>
 
-        <header>
-            <section class="logo">
-                <a href="../index.php">
-                    <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Autres/blog-loco-green.png" height="110" width="auto">
-                    <div class="logo-header"></div>
-                </a>
-
-            </section>
-
-            <section class="menu_burger_container">
-                <article id="burger-menu-click" class="menu_burger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-
-                </article>
-            </section>
-            
-            <nav>
-                <ul>
-                    <li><a href="../plateformes.php">Platforms</a></li>
-                    <li><a href="../about_us.php">About Us</a></li>
-                    <li><a href="../contact.php">Contact</a></li>
-                </ul>
-            </nav>
-
-        </header>
+        <?php include "../_header.php"; ?>
 
         <main>
 
@@ -96,83 +70,9 @@
             </div>
     </main>
 
-    <footer>
-        <section class="items">
-            <article class="hidden">
-                <a href="../plateformes.php">
-                    <div>Platforms</div>
-                </a>
-            </article
-            <article class="hidden">
-                <a href="../about_us.php">
-                    <div>About Us</div>
-                </a>
-            </article>
-            <article class="hidden">
-                <a href="../index.php">
-                    <div class="logo_retro_invaders">
-                        <img class="logo_desktop" alt="logo_retro_invaders_desktop" src="../../Images/Autres/blog-loco-green.png" height="150" width="auto">
-                    </div>
-                </a>
-            </article>
-            <article class="hidden">
-                <a href="../contact.php">
-                    <div>Contact</div>
-                </a>
-            </article>
-            <article>
-                <div>FAQ</div>
-            </article>
+        <?php include "../_footer.php"; ?>
 
-            <article>
-                <div>Legal Mentions</div>
-            </article>
-        </section>
-
-        <section class="logo-rs-footer-container">
-            <article>
-                <a href="https://www.instagram.com/?hl=fr">
-                   <img class="logo_instagram" alt="logo_instagram" src="../../Images/Autres/instagram-green.png" height="40" width="auto">
-                </a>
-            </article>
-            
-            <article>
-                <a href="https://twitter.com/?lang=fr">
-                    <img alt="logo_twitter" src="../../Images/Autres/twitter-green.png" height="40" width="auto">
-                </a>
-            </article>
-
-            <article>
-                <a href="https://fr-fr.facebook.com/">
-                    <img alt="logo_facebook" src="../../Images/Autres/facebook-green.png" height="40" width="auto">
-                </a>
-            </article>
-
-            <article>
-                <a href="https://www.pinterest.fr/">
-                    <img alt="logo_pinterest" src="../../Images/Autres/pinterest-green.png" height="40" width="auto">
-                </a>
-            </article>
-
-        </section>
-    </footer>
-</main>
-        
-        <script type="text/javascript">
-        jQuery(function(){
-            var div = jQuery("#burger-menu-click"), div = jQuery("#nav-mobile-container"), div = jQuery(".close-menu-mobile");
-            jQuery("#burger-menu-click").click(function(){
-                jQuery("#burger-menu-click").toggleClass ("no-content");
-                jQuery("#nav-mobile-container").toggleClass ("no-content");
-                jQuery(".close-menu-mobile").toggleClass ("no-content");
-            });     
-            jQuery(".close-menu-mobile").click(function(){
-                jQuery("#burger-menu-click").toggleClass ("no-content");
-                jQuery("#nav-mobile-container").toggleClass ("no-content");
-                jQuery(".close-menu-mobile").toggleClass ("no-content");
-            });   
-        });
-        </script>
+        <?php include "../burger-script.php"; ?>
     
 </body>
 </html>

@@ -3,26 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7ff94468-0deb-4be7-b9a9-143bbfbece5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-link-to-the-past.html" beforeDir="false" afterPath="$PROJECT_DIR$/a-link-to-the-past.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aladdin.html" beforeDir="false" afterPath="$PROJECT_DIR$/aladdin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/altered-beast.html" beforeDir="false" afterPath="$PROJECT_DIR$/altered-beast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arcade.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/arcade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamcast.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/dreamcast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genesis.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/genesis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirby-dreamland.html" beforeDir="false" afterPath="$PROJECT_DIR$/kirby-dreamland.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lion-king.html" beforeDir="false" afterPath="$PROJECT_DIR$/lion-king.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/majora-mask.html" beforeDir="false" afterPath="$PROJECT_DIR$/majora-mask.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metal-slug.html" beforeDir="false" afterPath="$PROJECT_DIR$/metal-slug.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nes-classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/nes-classic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nintendo-64.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/nintendo-64.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ocarina-of-time.html" beforeDir="false" afterPath="$PROJECT_DIR$/ocarina-of-time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/about_us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/plateformes.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/plateformes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sonic-the-hedgehog-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sonic-the-hedgehog-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/street-fighter-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/street-fighter-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/super-mario-bros.html" beforeDir="false" afterPath="$PROJECT_DIR$/super-mario-bros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/super-nintendo.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/super-nintendo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/virtual-tennis.html" beforeDir="false" afterPath="$PROJECT_DIR$/virtual-tennis.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +18,20 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZIzhlwdcjeAyEdBAsPZpWLMW9K" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -47,13 +41,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/unused-anymore" />
+      <recent name="$PROJECT_DIR$/php/games" />
       <recent name="$PROJECT_DIR$/php/platforms" />
       <recent name="$PROJECT_DIR$/gilroy" />
-      <recent name="$PROJECT_DIR$/php" />
-      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -66,7 +62,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584541517038</updated>
-      <workItem from="1584541518689" duration="4647000" />
+      <workItem from="1584541518689" duration="4870000" />
+      <workItem from="1584603418776" duration="119000" />
+      <workItem from="1584603561553" duration="2259000" />
     </task>
     <servers />
   </component>
@@ -74,9 +72,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="484" y="211" width="424" height="513" key="FileChooserDialogImpl" timestamp="1584548983653">
+    <state x="484" y="211" width="424" height="513" key="FileChooserDialogImpl" timestamp="1584607086821">
       <screen x="0" y="339" width="1920" height="698" />
     </state>
-    <state x="484" y="211" width="424" height="513" key="FileChooserDialogImpl/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584548983653" />
+    <state x="484" y="211" width="424" height="513" key="FileChooserDialogImpl/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584607086821" />
+    <state x="893" y="490" width="399" height="149" key="NewPhpFileDialog" timestamp="1584607333892">
+      <screen x="0" y="339" width="1920" height="698" />
+    </state>
+    <state x="893" y="490" width="399" height="149" key="NewPhpFileDialog/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584607333892" />
+    <state x="510" y="315" width="1012" height="698" key="SettingsEditor" timestamp="1584603809817">
+      <screen x="0" y="339" width="1920" height="698" />
+    </state>
+    <state x="510" y="315" width="1012" height="698" key="SettingsEditor/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584603809817" />
+    <state x="362" y="498" key="com.intellij.ide.util.TipDialog" timestamp="1584603637429">
+      <screen x="0" y="339" width="1920" height="698" />
+    </state>
+    <state x="362" y="498" key="com.intellij.ide.util.TipDialog/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584603637429" />
   </component>
 </project>

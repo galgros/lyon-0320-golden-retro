@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ff94468-0deb-4be7-b9a9-143bbfbece5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/about_us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/plateformes.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/plateformes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +49,21 @@
       <recent name="$PROJECT_DIR$/gilroy" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="_platform-list-loop.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/php/platforms/_platform-list-loop.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.2" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script._platform-list-loop.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,7 +76,7 @@
       <updated>1584541517038</updated>
       <workItem from="1584541518689" duration="4870000" />
       <workItem from="1584603418776" duration="119000" />
-      <workItem from="1584603561553" duration="2259000" />
+      <workItem from="1584603561553" duration="3766000" />
     </task>
     <servers />
   </component>
@@ -72,14 +84,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="390" y="167" width="642" height="640" key="#platform-list-loop.php" timestamp="1584609297727">
+      <screen x="0" y="339" width="1920" height="698" />
+    </state>
+    <state x="390" y="167" width="642" height="640" key="#platform-list-loop.php/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584609297727" />
     <state x="484" y="211" width="424" height="513" key="FileChooserDialogImpl" timestamp="1584607086821">
       <screen x="0" y="339" width="1920" height="698" />
     </state>
     <state x="484" y="211" width="424" height="513" key="FileChooserDialogImpl/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584607086821" />
-    <state x="893" y="490" width="399" height="149" key="NewPhpFileDialog" timestamp="1584607333892">
+    <state width="917" height="138" key="GridCell.Tab.0.bottom" timestamp="1584609575000">
       <screen x="0" y="339" width="1920" height="698" />
     </state>
-    <state x="893" y="490" width="399" height="149" key="NewPhpFileDialog/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584607333892" />
+    <state width="917" height="138" key="GridCell.Tab.0.bottom/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584609575000" />
+    <state width="917" height="138" key="GridCell.Tab.0.center" timestamp="1584609575000">
+      <screen x="0" y="339" width="1920" height="698" />
+    </state>
+    <state width="917" height="138" key="GridCell.Tab.0.center/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584609575000" />
+    <state width="917" height="138" key="GridCell.Tab.0.left" timestamp="1584609575000">
+      <screen x="0" y="339" width="1920" height="698" />
+    </state>
+    <state width="917" height="138" key="GridCell.Tab.0.left/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584609575000" />
+    <state width="917" height="138" key="GridCell.Tab.0.right" timestamp="1584609575000">
+      <screen x="0" y="339" width="1920" height="698" />
+    </state>
+    <state width="917" height="138" key="GridCell.Tab.0.right/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584609575000" />
+    <state x="893" y="490" width="399" height="149" key="NewPhpFileDialog" timestamp="1584608508490">
+      <screen x="0" y="339" width="1920" height="698" />
+    </state>
+    <state x="893" y="490" width="399" height="149" key="NewPhpFileDialog/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584608508490" />
     <state x="510" y="315" width="1012" height="698" key="SettingsEditor" timestamp="1584603809817">
       <screen x="0" y="339" width="1920" height="698" />
     </state>

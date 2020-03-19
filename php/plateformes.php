@@ -46,15 +46,7 @@
             <nav class="nav-platforms">
                 <h2>Select your platform</h2>
 
-                <div class="nav-platforms-links-container">
-
-                    <h2><a href="platforms/genesis.html">Genesis</a></h2>
-                    <h2><a href="platforms/nes-classic.html">NES Classic</a></h2>
-                    <h2><a href="platforms/dreamcast.html">Dreamcast</a></h2>
-                    <h2><a href="platforms/nintendo-64.html">Nintendo 64</a></h2>
-                    <h2><a href="platforms/arcade.html">Arcade</a></h2>
-                    <h2><a href="platforms/super-nintendo.html">Super Nintendo</a></h2>
-                </div>
+                <?php include 'platforms/_platform-list-loop.php' ?>
 
             </nav>
 

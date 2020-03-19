@@ -76,12 +76,12 @@
 
                 <div class="nav-platforms-links-container">
 
-                    <h2><a href="genesis.html">Genesis</a></h2>
-                    <h2><a href="nes-classic.html">NES Classic</a></h2>
-                    <h2><a href="dreamcast.html">Dreamcast</a></h2>
-                    <h2><a href="nintendo-64.html">Nintendo 64</a></h2>
-                    <h2><a href="arcade.html">Arcade</a></h2>
-                    <h2><a href="super-nintendo.html">Super Nintendo</a></h2>
+                    <h2><a href="genesis.php">Genesis</a></h2>
+                    <h2><a href="nes-classic.php">NES Classic</a></h2>
+                    <h2><a href="dreamcast.php">Dreamcast</a></h2>
+                    <h2><a href="nintendo-64.php">Nintendo 64</a></h2>
+                    <h2><a href="arcade.php">Arcade</a></h2>
+                    <h2><a href="super-nintendo.php">Super Nintendo</a></h2>
                 </div>
 
             </nav>
@@ -89,7 +89,11 @@
             <section>
 
                 <div class="bloc-container">
-                        <div class="bloc virtual-tennis-container"><span>Dreamcast</span><h3>Virtual Tennis</h3><a href="../games/virtual-tennis.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc tloz-alttp-container"><span>Super Nintendo</span><h3>TLoZ A Link To The Past</h3><a href="../games/a-link-to-the-past.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc aladdin-container"><span>Super Nintendo</span><h3>Disney's Aladdin</h3><a href="../games/aladdin.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc kirby-dreamland-container"><span>Super Nintendo</span><h3>Kirby's Dreamland</h3><a href="../games/kirby-dreamland.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc lion-king-container"><span>Super Nintendo</span><h3>Disney's The Lion King</h3><a href="../games/lion-king.html" class="button button-on-hover">See More</a></div>
+                       
                 </div>
 
             </div>

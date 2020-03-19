@@ -76,12 +76,12 @@
 
                 <div class="nav-platforms-links-container">
 
-                    <h2><a href="genesis.html">Genesis</a></h2>
-                    <h2><a href="nes-classic.html">NES Classic</a></h2>
-                    <h2><a href="dreamcast.html">Dreamcast</a></h2>
-                    <h2><a href="nintendo-64.html">Nintendo 64</a></h2>
-                    <h2><a href="arcade.html">Arcade</a></h2>
-                    <h2><a href="super-nintendo.html">Super Nintendo</a></h2>
+                    <h2><a href="genesis.php">Genesis</a></h2>
+                    <h2><a href="nes-classic.php">NES Classic</a></h2>
+                    <h2><a href="dreamcast.php">Dreamcast</a></h2>
+                    <h2><a href="nintendo-64.php">Nintendo 64</a></h2>
+                    <h2><a href="arcade.php">Arcade</a></h2>
+                    <h2><a href="super-nintendo.php">Super Nintendo</a></h2>
                 </div>
 
             </nav>

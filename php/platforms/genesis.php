@@ -76,12 +76,12 @@
 
                 <div class="nav-platforms-links-container">
 
-                    <h2><a href="genesis.html">Genesis</a></h2>
-                    <h2><a href="nes-classic.html">NES Classic</a></h2>
-                    <h2><a href="dreamcast.html">Dreamcast</a></h2>
-                    <h2><a href="nintendo-64.html">Nintendo 64</a></h2>
-                    <h2><a href="arcade.html">Arcade</a></h2>
-                    <h2><a href="super-nintendo.html">Super Nintendo</a></h2>
+                    <h2><a href="genesis.php">Genesis</a></h2>
+                    <h2><a href="nes-classic.php">NES Classic</a></h2>
+                    <h2><a href="dreamcast.php">Dreamcast</a></h2>
+                    <h2><a href="nintendo-64.php">Nintendo 64</a></h2>
+                    <h2><a href="arcade.php">Arcade</a></h2>
+                    <h2><a href="super-nintendo.php">Super Nintendo</a></h2>
                 </div>
 
             </nav>
@@ -89,7 +89,8 @@
             <section>
 
                 <div class="bloc-container">
-                        <div class="bloc super-mario-bros-2-container"><span>NES</span><h3>Super Mario Bros.</h3><a href="../games/super-mario-bros.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc sonic-the-hedgehog-2-container"><span>Genesis</span><h3>Sonic The Hedgehog 2</h3><a href="../games/sonic-the-hedgehog-2.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc altered-beast-container"><span>Genesis</span><h3>Altered Beast</h3><a href="../games/altered-beast.html" class="button button-on-hover">See More</a></div>
                 </div>
 
             </div>

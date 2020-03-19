@@ -104,42 +104,42 @@
 
 			<div class="products-container-homepage">
 
-				<a href="platforms/genesis.html">
+				<a href="platforms/genesis.php">
 					<div class="platform-container sega-megadrive">
 						<span class="number-of-games">2 JEUX</span>
 						<h3>Sega Genesis</h3>
 					</div>
 				</a>
 
-				<a href="platforms/nes-classic.html">
+				<a href="platforms/nes-classic.php">
 					<div class="platform-container nes-classic">
 						<span class="number-of-games">1 JEUX</span>
 						<h3>NES Classic</h3>
 					</div>
 				</a>
 
-				<a href="platforms/dreamcast.html">
+				<a href="platforms/dreamcast.php">
 					<div class="platform-container dreamcast">
 						<span class="number-of-games">1 JEUX</span>
 						<h3>Dreamcast</h3>
 					</div>
 				</a>
 
-				<a href="platforms/nintendo-64.html">
+				<a href="platforms/nintendo-64.php">
 					<div class="platform-container nintendo-64">
 						<span class="number-of-games">3 JEUX</span>
 						<h3>Nintendo 64</h3>
 					</div>
 				</a>
 
-				<a href="platforms/arcade.html">
+				<a href="platforms/arcade.php">
 					<div class="platform-container arcade">
 						<span class="number-of-games">2 JEUX</span>
 						<h3>Arcade</h3>
 					</div>
 				</a>
 
-				<a href="platforms/super-nintendo.html">
+				<a href="platforms/super-nintendo.php">
 					<div class="platform-container super-nintendo">
 						<span class="number-of-games">4 JEUX</span>
 						<h3>Super Nintendo</h3>

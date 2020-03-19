@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff94468-0deb-4be7-b9a9-143bbfbece5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/platforms/_platform-list-loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/_platform-list-loop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/platforms/arcade.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/arcade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/platforms/dreamcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/dreamcast.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/platforms/genesis.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/genesis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/platforms/nes-classic.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/nes-classic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/platforms/nintendo-64.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/nintendo-64.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/platforms/super-nintendo.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/super-nintendo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +78,7 @@
       <workItem from="1584541518689" duration="4870000" />
       <workItem from="1584603418776" duration="119000" />
       <workItem from="1584603561553" duration="4520000" />
-      <workItem from="1584611985452" duration="3564000" />
+      <workItem from="1584611985452" duration="4069000" />
     </task>
     <servers />
   </component>

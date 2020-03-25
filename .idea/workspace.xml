@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff94468-0deb-4be7-b9a9-143bbfbece5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/php/platforms/nes-classic.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/nes-classic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/platforms/nintendo-64.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/nintendo-64.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/platforms/super-nintendo.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/platforms/super-nintendo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/About-us/oim.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/About-us/samplito.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about_us_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about_us_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,12 @@
       <workItem from="1584541518689" duration="4870000" />
       <workItem from="1584603418776" duration="119000" />
       <workItem from="1584603561553" duration="4520000" />
-      <workItem from="1584611985452" duration="4069000" />
+      <workItem from="1584611985452" duration="5289000" />
+      <workItem from="1584898775367" duration="140000" />
+      <workItem from="1584975883065" duration="2105000" />
+      <workItem from="1584987904110" duration="6000" />
+      <workItem from="1584987948638" duration="738000" />
+      <workItem from="1585124107189" duration="841000" />
     </task>
     <servers />
   </component>
@@ -118,9 +124,10 @@
       <screen x="0" y="339" width="1920" height="698" />
     </state>
     <state x="510" y="315" width="1012" height="698" key="SettingsEditor/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584603809817" />
-    <state x="362" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1584611999213">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="258" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1584975883050">
+      <screen x="0" y="27" width="1366" height="698" />
     </state>
+    <state x="258" y="186" key="com.intellij.ide.util.TipDialog/0.27.1366.698@0.27.1366.698" timestamp="1584975883050" />
     <state x="362" y="498" key="com.intellij.ide.util.TipDialog/1920.312.1366.768/0.339.1920.698@0.339.1920.698" timestamp="1584603637429" />
     <state x="362" y="246" key="com.intellij.ide.util.TipDialog/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584611999213" />
   </component>

@@ -72,7 +72,7 @@
 
         <?php include "../_footer.php"; ?>
 
-        <?php include "../burger-script.php"; ?>
+        <?php include "../_burger-script.php"; ?>
     
 </body>
 </html>

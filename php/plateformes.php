@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="/css/plateformes_style.css">
     </head>
 
-    <?php include "/php/_header.php"; ?>
+    <?php include "../php/_header.php"; ?>
 
         <main>
             <section class="banner-platforms">
@@ -17,7 +17,7 @@
             <section class="nav-and-bloc-container">
                 <nav class="nav-platforms">
                     <h2>Select your platform</h2>
-                    <?php include '/php/platforms/_platform-list-loop.php' ?>
+                    <?php include '../php/platforms/_platform-list-loop.php' ?>
                 </nav>
                 <section>
                     <div class="bloc-container">
@@ -39,4 +39,4 @@
             </section>
         </main>
 
-        <?php include "/php/_footer.php"; ?>
+        <?php include "../php/_footer.php"; ?>

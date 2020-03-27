@@ -5,6 +5,7 @@
         <meta name="title" content="Retro Invaders">
         <meta name="description" content="Retro Invaders helps you to find your favorite retro games">
         <link rel="stylesheet" type="text/css" href="/css/index_style.css">
+        <link rel="stylesheet" type="text/css" href="/css/contact_style.css">
     </head>
 
     <?php include "_header.php"; ?>
@@ -117,12 +118,7 @@
                     <h2>Any questions?</h2>
                 </div>
 
-                <input class="first-form-element" type="text" placeholder="Name">
-                <input type="text" placeholder="Email Address">
-                <input type="dropdown" placeholder="How can we help?">
-                <textarea placeholder="Anything else?"></textarea>
-
-                <button type="submit">SUBMIT</button>
+                <?php include "_contactForm.php"; ?>
 
             </section>
         </main>

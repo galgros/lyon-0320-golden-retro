@@ -79,6 +79,7 @@ body {
 /****CONTACT*****/
 .contact{
     flex-grow: 0.4;
+    min-width: 190px;
     background-color:whitesmoke;
     border-radius: 10px;
     box-shadow: #9E9E9E 1px 1px 10px 0px;

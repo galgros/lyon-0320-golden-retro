@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="/css/contact_style.css">
     </head>
 
-    <?php include "_header.php"; ?>
+    <?php require "_header.php"; ?>
 
         <main>
             <section class="banner-homepage">
@@ -123,4 +123,4 @@
             </section>
         </main>
 
-    <?php include "_footer.php"; ?>
+    <?php require "_footer.php"; ?>

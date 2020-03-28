@@ -28,7 +28,7 @@
 <div class="middle">
     <div class="form">
         <h2>Get in Touch !</h2>
-        <form action="" method="post">
+        <form action="contact.php" method="post">
             <label for="name"></label>
             <input type="text" id="name" name="user_name" placeholder="Name" value="<?php if(!empty($_POST)) echo $name; ?>">
             <div class="errorMessages">

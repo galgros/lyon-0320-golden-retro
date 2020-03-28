@@ -1,15 +1,52 @@
+<?php
+
+    if($_POST) {
+
+        $name = trim($_POST['user_name']);
+        $mail = trim($_POST['user_mail']);
+        $message = trim($_POST['user_message']);
+
+        $errorsArray = array();
+
+        if(empty($name))
+            $errorsArray['user_name1'] = "Name cannot be empty";
+        if (empty($mail))
+            $errorsArray['user_mail1'] = "Email cannot be empty";
+        if (!empty($mail) && !filter_var($mail, FILTER_VALIDATE_EMAIL))
+            $errorsArray['user_mail1'] = "Email is not valid";
+        if (empty($message))
+            $errorsArray['user_message1'] = "Message cannot be empty";
+
+        if (empty($errorsArray)) {
+            $urlMail = urlencode($mail);
+            header("Location: /php/thanks.php?user_name=$name&user_mail=$urlMail");
+            exit();
+        }
+    }
+?>
+
 <div class="middle">
     <div class="form">
         <h2>Get in Touch !</h2>
         <form action="" method="post">
             <label for="name"></label>
-            <input type="text" id="name" name="user_name" placeholder="Name">
+            <input type="text" id="name" name="user_name" placeholder="Name" value="<?php if(!empty($_POST)) echo $name; ?>">
+            <div class="errorMessages">
+                <?php if (isset($errorsArray['user_name1'])) echo $errorsArray['user_name1']; ?>
+            </div>
             <label for="mail"></label>
-            <input type="email" id="mail" name="user_mail" placeholder="Mail">
+            <input type="email" id="mail" name="user_mail" placeholder="Mail" value="<?php if(!empty($_POST)) echo $mail; ?>">
+            <div class="errorMessages">
+                <?php if (isset($errorsArray['user_mail1'])) echo $errorsArray['user_mail1']; ?>
+            </div>
             <label for="msg"></label>
-            <textarea id="msg" name="user_message" placeholder="Message"></textarea>
+            <textarea id="msg" name="user_message" placeholder="Message"><?php if(!empty($_POST)) echo $message; ?></textarea>
+            <div class="errorMessages">
+                <?php if (isset($errorsArray['user_message1'])) echo $errorsArray['user_message1']; ?>
+            </div>
+            <button type="submit" class="button">Send</button>
         </form>
-        <button type="submit" class="button">Send</button>
+
     </div>
     <div class="contact">
         <div class="mail">

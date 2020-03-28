@@ -49,15 +49,23 @@ body {
 .contact-banner-content-container h2 {
     width:100%;
 }
+.infoMessage {
+    font-size: small;
+    color: gray;
+}
 
 /********MIDDLE*******/
 .middle{
     display: flex;
     justify-content: center;
+    width: 90%;
     margin-right: 5%;
     margin-left: 5%;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+.form {
+    width: 100%;
 }
 .form input, .form textarea {
     width: 80%;
@@ -78,8 +86,8 @@ body {
 
 /****CONTACT*****/
 .contact{
-    flex-grow: 0.4;
-    min-width: 190px;
+    min-width: 250px;
+    margin-left: auto;
     background-color:whitesmoke;
     border-radius: 10px;
     box-shadow: #9E9E9E 1px 1px 10px 0px;
@@ -139,7 +147,10 @@ input,textarea{
     border:1px solid #52ae32;
     color:#52ae32;
 }
-
+.errorMessages {
+    font-size: small;
+    color: red;
+}
 /****MEDIA QUERIE FOR MOBILE****/
 
 @media screen and (max-width : 480px){

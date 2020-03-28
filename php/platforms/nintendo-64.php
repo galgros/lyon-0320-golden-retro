@@ -28,9 +28,9 @@
                 </nav>
                 <section>
                     <div class="bloc-container">
-                        <div class="bloc tloz-oot-container"><span>Nintendo 64</span><h3>TLoZ Ocarina of Time</h3><a href="../games/ocarina-of-time.html" class="button button-on-hover">See More</a></div>
-                        <div class="bloc tloz-mm-container"><span>Nintendo 64</span><h3>TLoZ Majora's Mask</h3><a href="../games/majora-mask.html" class="button button-on-hover">See More</a></div>
-                        <div class="bloc super-mario-64-container"><span>Nintendo 64</span><h3>Super Mario 64</h3><a href="../games/super-mario-64.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc tloz-oot-container"><span>Nintendo 64</span><h3>TLoZ Ocarina of Time</h3><a href="../games/ocarina-of-time.php" class="button button-on-hover">See More</a></div>
+                        <div class="bloc tloz-mm-container"><span>Nintendo 64</span><h3>TLoZ Majora's Mask</h3><a href="../games/majora-mask.php" class="button button-on-hover">See More</a></div>
+                        <div class="bloc super-mario-64-container"><span>Nintendo 64</span><h3>Super Mario 64</h3><a href="../games/super-mario-64.php" class="button button-on-hover">See More</a></div>
                     </div>
                 </section>
             </section>

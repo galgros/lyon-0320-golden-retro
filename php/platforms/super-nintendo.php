@@ -30,8 +30,8 @@
                     <div class="bloc-container">
                         <div class="bloc tloz-alttp-container"><span>Super Nintendo</span><h3>TLoZ A Link To The Past</h3><a href="../games/a-link-to-the-past.php" class="button button-on-hover">See More</a></div>
                         <div class="bloc aladdin-container"><span>Super Nintendo</span><h3>Disney's Aladdin</h3><a href="../games/aladdin.php" class="button button-on-hover">See More</a></div>
-                        <div class="bloc kirby-dreamland-container"><span>Super Nintendo</span><h3>Kirby's Dreamland</h3><a href="../games/kirby-dreamland.html" class="button button-on-hover">See More</a></div>
-                        <div class="bloc lion-king-container"><span>Super Nintendo</span><h3>Disney's The Lion King</h3><a href="../games/lion-king.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc kirby-dreamland-container"><span>Super Nintendo</span><h3>Kirby's Dreamland</h3><a href="../games/kirby-dreamland.php" class="button button-on-hover">See More</a></div>
+                        <div class="bloc lion-king-container"><span>Super Nintendo</span><h3>Disney's The Lion King</h3><a href="../games/lion-king.php" class="button button-on-hover">See More</a></div>
                     </div>
                 </section>
             </section>

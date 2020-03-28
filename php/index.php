@@ -32,7 +32,7 @@
                             <span class="release-date">1993</span>
                         </div>
                         <p>Nintendo created platform games and got it at its best with Super Mario Bros. 2. Experience now one of the best platformers ever created!</p>
-                        <a href="games/super-mario-bros.html" class="button">MORE INFO</a>
+                        <a href="games/super-mario-bros.php" class="button">MORE INFO</a>
                     </div>
                 </section>
                 <section class="align-right street-fighter-bg">
@@ -44,7 +44,7 @@
                             <span class="release-date">1992</span>
                         </div>
                         <p>Ryu, CHun-Li, M. Bison... choose your favorite street fighter and battleyour friend!</p>
-                        <a href="games/street-fighter-2.html" class="button">MORE INFO</a>
+                        <a href="games/street-fighter-2.php" class="button">MORE INFO</a>
                     </div>
                 </section>
                 <section class="align-left sonic-bg">
@@ -58,7 +58,7 @@
                             <span class="release-date">1992</span>
                         </div>
                         <p>With Sonic the Hedgehog, Sega became a real concurrent to Nintendo’s Mario.</p>
-                        <a href="games/sonic-the-hedgehog-2.html" class="button">MORE INFO</a>
+                        <a href="games/sonic-the-hedgehog-2.php" class="button">MORE INFO</a>
                     </div>
                 </section>
             </section>

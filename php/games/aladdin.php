@@ -4,10 +4,10 @@
         <title>Retro Invader</title>
         <meta name="title" content="Retro Invaders">
         <meta name="description" content="Retro Invaders helps you to find your favorite retro games">
-        <link rel="stylesheet" type="text/css" href="../../css/produits_style.css">
+        <link rel="stylesheet" type="text/css" href="/css/produits_style.css">
     </head>
 
-    <?php include "../_header.php"; ?>
+    <?php require "../_header.php"; ?>
 
         <main>
             <!--name of the game-->
@@ -69,4 +69,4 @@
 
         </main>
 
-    <?php include "../_footer.php"; ?>
+    <?php require "../_footer.php"; ?>

@@ -28,7 +28,7 @@
                 </nav>
                 <section>
                     <div class="bloc-container">
-                        <div class="bloc virtual-tennis-container"><span>Dreamcast</span><h3>Virtual Tennis</h3><a href="../games/virtual-tennis.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc virtual-tennis-container"><span>Dreamcast</span><h3>Virtual Tennis</h3><a href="../games/virtual-tennis.php" class="button button-on-hover">See More</a></div>
                     </div>
                 </section>
             </section>

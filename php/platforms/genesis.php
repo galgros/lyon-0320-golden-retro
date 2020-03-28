@@ -28,7 +28,7 @@
                 </nav>
                 <section>
                     <div class="bloc-container">
-                        <div class="bloc sonic-the-hedgehog-2-container"><span>Genesis</span><h3>Sonic The Hedgehog 2</h3><a href="../games/sonic-the-hedgehog-2.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc sonic-the-hedgehog-2-container"><span>Genesis</span><h3>Sonic The Hedgehog 2</h3><a href="../games/sonic-the-hedgehog-2.php" class="button button-on-hover">See More</a></div>
                         <div class="bloc altered-beast-container"><span>Genesis</span><h3>Altered Beast</h3><a href="../games/altered-beast.php" class="button button-on-hover">See More</a></div>
                     </div>
                 </section>

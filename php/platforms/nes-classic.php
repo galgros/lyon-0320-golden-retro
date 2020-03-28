@@ -28,7 +28,7 @@
                 </nav>
                 <section>
                     <div class="bloc-container">
-                        <div class="bloc super-mario-bros-2-container"><span>NES</span><h3>Super Mario Bros.</h3><a href="../games/super-mario-bros.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc super-mario-bros-2-container"><span>NES</span><h3>Super Mario Bros.</h3><a href="../games/super-mario-bros.php" class="button button-on-hover">See More</a></div>
                     </div>
                 </section>
             </section>

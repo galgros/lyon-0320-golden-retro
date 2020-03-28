@@ -128,6 +128,7 @@ label {
         box-shadow: 0px 0px 10px lightgrey;
     }
     .product-video-and-links {
+        margin-bottom: 15px;
         width: 100%;
     }
     .product-video-container {
@@ -277,6 +278,7 @@ label {
         width:66%;
     }
     .product-video-and-links {
+        margin-bottom: 15px;
         display: flex;
     }
     .product-video-container {

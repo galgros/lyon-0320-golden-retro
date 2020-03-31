@@ -79,6 +79,9 @@ button {
 }
 
 /* PICK A GAME */
+.platforms-and-highlights {
+display: flex;
+}
 .pick-game-homepage {
 	width:100%;
 }
@@ -97,118 +100,29 @@ button {
 .heading-with-background h2 {
 	color:white;
 }
-section.align-left, section.align-right {
-	height: 450px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    display:flex;
-    align-items:center;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:100%;
-}
-.align-left .game-content-container {
-	width: 50%;
-    min-width: 300px;
-    max-width: 600px;
-    padding-left:50px;
-}
-.game-name-picture {
-	width:300px;
-	height:200px;
-	background-position:center;
-	background-repeat:no-repeat;
-}
-.game-name-picture.super-mario-bros {
-	background-image:url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/Super_Mario_Bros.png);
-	background-position:left;
-	background-size:contain;
-}
-.game-category span {
-	font-family:Gilroy, Montserrat;
-	font-size:11px;
-	text-transform:uppercase;
-}
-span.tiret {
-	margin:0 10px;
-}
-span.release-date {
-	color:#52ae32;
-}
-.game-category span.nintendo {
-	color:#E4000F;
-}
-.game-content-container p {
-	margin-bottom:30px;
-}
-.align-left.super-mario-bg {
-	background-image:linear-gradient(to right, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/supermariobros.jpg);
-	background-position:bottom right;
-	background-size:100%;
-	transition:all 0.2s ease-in-out;
-}
-.align-right.street-fighter-bg {
-	background-image: linear-gradient(to right, rgba(0,0,0,0), black), url(../Images/Jeux/street-fighter.jpg);
-    background-position: left;
-    background-size: 100%;
-	transition:all 0.2s ease-in-out;
-}
-.align-right .game-content-container {
-	position:absolute;
-	right:50px;
-}
-.game-name-picture.street-fighter {
-	background-image:url(../Images/Jeux/Street_Fighter_old_logo.png);
-	background-position:left;
-	background-size:80%;
-}
-.align-left.sonic-bg {
-	background-image:linear-gradient(to right, black, rgba(0,0,0,0)), url(../Images/Jeux/sonic-bg.jpg);
-	background-position:right;
-	background-size:100%;
-	transition:all 0.2s ease-in-out;
-}
-.game-name-picture.sonic {
-	background-image:url(../Images/Jeux/sonic-logo.png);
-	background-position:left;
-	background-size:contain;
-}
-.see-all-games-container {
-	height:100px;
-	width:100%;
-	background-color:#52ae32;
-	position:relative;
-}
-.see-all-games-container .button-white {
-	position:absolute;
-	left:50%;
-	top:50%;
-	transform:translateX(-50%) translateY(-50%);
+.highlight-title {
+	margin-left: 235px;
 }
 
 /* PLATFORMS */
+.platforms-homepage {
+	width: 230px;
+}
 .platforms-homepage h2 {
 	text-align:center;
+	padding: 20px;
 }
 .products-container-homepage {
-	display:flex;
-	justify-content:space-around;
-	align-items:center;
-	flex-wrap:wrap;
-	width:60%;
-	max-width:900px;
-	min-width:300px;
-	margin:0 auto;
-	margin-top:50px;
+	width:100%;
+	margin:60px auto;
+	margin-top:10px;
 }
-.products-container-homepage a {
-	width:50%;
+.highlights-container {
+	width: 100%;
 }
 .platform-container {
-	width:92%;
-	min-width:290px;
-	height:200px;
+	width:85%;
+	height:140px;
 	border-radius:20px;
 	margin:12px auto;
 	position:relative;
@@ -276,10 +190,10 @@ span.release-date {
 	background-repeat:no-repeat;
 }
 .platforms-homepage .button {
-	margin: 0 auto;
+	margin: 40px;
     position: absolute;
-    left: 50%;
-    margin-top: 50px;
+    left: 80px;
+    margin-top: 10px;
     transform: translateX(-50%);
 }
 
@@ -287,7 +201,6 @@ span.release-date {
 .about-us-homepage {
 	height:500px;
 	background-image:linear-gradient(to bottom, black, rgba(0,0,0,0)), url(../Images/Autres/about-us-section.jpg);
-	margin-top:150px;
 	display: flex;
     justify-content: center;
     align-items:center;
@@ -347,59 +260,18 @@ button:hover {
 
 /* RESPONSIVE */
 @media all and (max-width:960px) and (orientation:portrait) {
-	.align-left.super-mario-bg {
-		background-image:url(../Images/Jeux/supermariobros.jpg);
-		background-size:cover;
+
+	.highlight-title {
+		margin-left: 0;
 	}
-	.align-left.sonic-bg {
-		background-image:url(../Images/Jeux/sonic-bg.jpg);
-    	background-size: cover;
+	.platforms-homepage {
+		width: 100%;
 	}
-	.align-right.street-fighter-bg {
-		background-image:url(../Images/Jeux/street-fighter.jpg);
-		background-size:cover;
-	}
-	.align-left .game-content-container {
-		width: 50%;
-    	min-width: 300px;
-    	max-width: 600px;
-    	padding: 15px;
-    	background-color: rgba(0,0,0,0.5);
-    	border-radius: 10px;
-    	margin: 0 auto;
-    	padding-left:15px;
-    	display: flex;
-   	 	justify-content: center;
-    	align-items: center;
-    	flex-direction: column;
-	}
-	.align-right .game-content-container {
-		width: 50%;
-    	min-width: 300px;
-    	max-width: 600px;
-    	padding: 15px;
-    	background-color: rgba(0,0,0,0.5);
-    	border-radius: 10px;
-    	margin: 0 auto;
-    	padding-left:15px;
-    	display: flex;
-   	 	justify-content: center;
-    	align-items: center;
-    	flex-direction: column;
-        left: 50%;
-    	transform: translateX(-50%);
-	}
-	.game-content-container {
-		position:relative;
-	}
-	.game-name-picture.super-mario-bros, .game-name-picture.street-fighter, .game-name-picture.sonic {
-		background-position:center;
+	.products-container-homepage {
+		width:60%;
 	}
 	.category {
 		font-weight:900;
-	}
-	.products-container-homepage a {
-		width:100%;
 	}
 	.about-us-homepage-content-container p {
 		padding:0 15px;

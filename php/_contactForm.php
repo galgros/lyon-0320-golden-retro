@@ -1,5 +1,9 @@
 <?php
 
+require_once '../connec.php';
+$pdo = new PDO(DNS, USER, PASS);
+
+
     if($_POST) {
 
         $name = trim($_POST['user_name']);
@@ -19,6 +23,14 @@
 
         if (empty($errorsArray)) {
             $urlMail = urlencode($mail);
+
+            $query = 'INSERT INTO contact (user_name, mail, message) VALUES (:user_name, :mail, :message)';
+            $statement = $pdo->prepare($query);
+            $statement->bindValue(':user_name', $name, \PDO::PARAM_STR);
+            $statement->bindValue(':mail', $mail, \PDO::PARAM_STR);
+            $statement->bindValue(':message', $message, \PDO::PARAM_STR);
+            $statement->execute();
+
             header("Location: /php/thanks.php?user_name=$name&user_mail=$urlMail");
             exit();
         }

@@ -183,6 +183,16 @@ header {
 nav {
     display: none;
 }
+.backofficeHeader {
+    padding-top: 100px;
+}
+.backoffice {
+    min-height: 600px;
+}
+.backoffice .messages {
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 @media screen and (min-width: 961px) {
 

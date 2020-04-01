@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/css/footer_style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
+
 <div id="nav-mobile-container" class="nav-mobile-full no-content">
     <div class="close-menu-mobile no-content">
         <span class="bar"></span>

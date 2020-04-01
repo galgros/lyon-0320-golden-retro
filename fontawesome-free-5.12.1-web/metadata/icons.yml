@@ -2426,7 +2426,7 @@ bus:
   label: Bus
   search:
     terms:
-      - public transportation
+      - boby transportation
       - transportation
       - travel
       - vehicle
@@ -2441,7 +2441,7 @@ bus-alt:
   search:
     terms:
       - mta
-      - public transportation
+      - boby transportation
       - transportation
       - travel
       - vehicle
@@ -15957,7 +15957,7 @@ shuttle-van:
     terms:
       - airport
       - machine
-      - public-transportation
+      - boby-transportation
       - transportation
       - travel
       - vehicle
